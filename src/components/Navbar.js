@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import "./App.css";
+import "../App.css";
 
 class Navbar extends Component {
   render() {
@@ -7,19 +7,19 @@ class Navbar extends Component {
       <div className="Nav">
         <div>
           <nav className="navbar navbar-expand-lg">
-            <a class="nav-item nav-link" href="#">
+            <a className="nav-item nav-link" href="#">
               Home
             </a>
-            <a class="nav-item nav-link" href="#">
+            <a className="nav-item nav-link" href="#">
               Skills
             </a>
-            <a class="nav-item nav-link" href="#">
+            <a className="nav-item nav-link" href="#">
               About
             </a>
-            <a class="nav-item nav-link" href="#">
+            <a className="nav-item nav-link" href="#">
               Projects
             </a>
-            <a class="nav-item nav-link" href="#">
+            <a className="nav-item nav-link" href="#">
               Contact
             </a>
           </nav>

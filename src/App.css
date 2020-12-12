@@ -21,3 +21,14 @@ a:hover {
   border-bottom: 5px solid#DB3EB1;
 }
 
+.home {
+  background-image: url(./img/miamiWallpaper.png);
+  /* opacity: .9; */
+  width: 1440px;
+  height: 650px;
+}
+
+.profile {
+  height: 250px;
+  border-radius: 50%;
+}

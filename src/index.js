@@ -1,9 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Navbar from './components/Navbar';
+import Layout from './Layout';
 import './style.css';
 
 ReactDOM.render(
-  <Navbar />,
+  <Layout />,
   document.getElementById('root')
 );

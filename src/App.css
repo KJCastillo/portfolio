@@ -13,6 +13,10 @@ ul {
   list-style: none;
 }
 
+li {
+  padding: 12px;
+}
+
 a, a:visited {
   text-decoration: none;
   color: #41B6E6;
@@ -64,13 +68,20 @@ a:hover {
 }
 
 .Skills {
+  color: white;
+  text-shadow: 3px 3px 5px #41B6E6;
   height: 650px;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr; /* fraction*/
+  padding-top: 15px;
+  font-family: 'Oswald', sans-serif;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 75%;
+  margin: 0 auto;
 }
 
-/* .frontendSkills, .backendSkills, .otherSkills {
+.frontendSkills, .backendSkills, .otherSkills {
   justify-content: center;
   text-align: center;
-} */
-
+  width: 230px;
+}

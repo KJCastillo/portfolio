@@ -9,6 +9,10 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
 
+ul {
+  list-style: none;
+}
+
 a, a:visited {
   text-decoration: none;
   color: #41B6E6;
@@ -58,3 +62,15 @@ a:hover {
 .intro {
   text-shadow: 3px 3px 5px #DB3EB1;
 }
+
+.Skills {
+  height: 650px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr; /* fraction*/
+}
+
+/* .frontendSkills, .backendSkills, .otherSkills {
+  justify-content: center;
+  text-align: center;
+} */
+

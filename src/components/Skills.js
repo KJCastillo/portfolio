@@ -6,9 +6,9 @@ class Skills extends Component {
     return (
       <div className="Skills">
         <div className="frontendSkills">
-          <h1>Frontend</h1>
+          <h1 className="titleSkills">Frontend</h1>
           <ul>
-            <li>HTML 5</li>
+            <li><i className="fab fa-html5"></i>HTML 5</li>
             <li>CSS</li>
             <li>JavaScript</li>
             <li>Bootstrap</li>
@@ -18,7 +18,7 @@ class Skills extends Component {
           </ul>
         </div>
         <div className="backendSkills">
-          <h1>Backend</h1>
+          <h1 className="titleSkills">Backend</h1>
           <ul>
             <li>Flask</li>
             <li>Python</li>
@@ -28,7 +28,7 @@ class Skills extends Component {
           </ul>
         </div>
         <div className="otherSkills">
-          <h1>Other</h1>
+          <h1 className="titleSkills">Other</h1>
           <ul>
             <li>Git</li>
             <li>Github</li>

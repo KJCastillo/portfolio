@@ -1,6 +1,7 @@
 import React from 'react';
 import Navbar from './components/Navbar';
 import Home from './components/Home';
+import Skills from './components/Skills';
 
 // it('renders without crashing', () => {
 //   const div = document.createElement('div');
@@ -16,6 +17,7 @@ export const Layout = () => {
 		<div className="d-flex flex-column h-100">
 					<Navbar />
 					<Home />
+					<Skills />
 		</div>
 	);
 };

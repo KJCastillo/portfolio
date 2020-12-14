@@ -22,13 +22,33 @@ a:hover {
 }
 
 .home {
-  background-image: url(./img/miamiWallpaper.png);
-  /* opacity: .9; */
+  background-image: url(./img/wallpaper2.png);
   width: 1440px;
   height: 650px;
+  display: flex;
+  padding-top: 200px
 }
 
-.profile {
+.profilePic {
   height: 250px;
+  border: 2px solid #41B6E6;
   border-radius: 50%;
+  margin-top: 10px;
+  margin-left: 130px;
+}
+
+.profileDiv {
+  /* flex: 1; */
+  width: 340px;
+}
+
+.introDiv {
+  width: 1000px;
+  text-align: center;
+  color: white;
+  padding-top: 80px;
+}
+
+.intro {
+  text-shadow: 2px 2px 4px#41B6E6;
 }

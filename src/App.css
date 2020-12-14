@@ -7,6 +7,8 @@
   }
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
 a, a:visited {
   text-decoration: none;
   color: #41B6E6;
@@ -18,12 +20,14 @@ a:hover {
 
 .navbar {
   background: black;
-  border-bottom: 5px solid#DB3EB1;
+  border-bottom: 5px solid #DB3EB1;
+  font-family: 'Oswald', sans-serif;
 }
 
 .home {
-  background-image: url(./img/wallpaper2.png);
+  /* background-image: url(./img/wallpaper2.png); */
   /* background-image: url(./img/miami.png); */
+  background-image: url(./img/nature.png);
   width: 1440px;
   height: 650px;
   display: flex;
@@ -48,8 +52,9 @@ a:hover {
   text-align: center;
   color: white;
   padding-top: 80px;
+  font-family: 'Oswald', sans-serif;
 }
 
 .intro {
-  text-shadow: 2px 2px 4px#41B6E6;
+  text-shadow: 3px 3px 5px #DB3EB1;
 }

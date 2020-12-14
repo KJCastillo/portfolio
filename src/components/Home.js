@@ -11,9 +11,10 @@ class Home extends Component {
           </div>
           <div className="introDiv">
             <h1 className="intro">Hi! I&apos;m Kevin Castillo, pleasure to meet you!</h1>
-            <h4 className="intro">
-              I&apos;m a Full Stack Developer with a passion for coding!
-            </h4>
+            <h2 className="intro">
+              I&apos;m a Full Stack Developer with a passion for coding &amp; design!
+            </h2>
+            <button type="button" className="btn btn-light">Learn more!</button>
           </div>
       </div>
     );

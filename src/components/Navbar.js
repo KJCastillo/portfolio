@@ -14,10 +14,10 @@ class Navbar extends Component {
               Skills
             </a>
             <a className="nav-item nav-link" href="#">
-              About
+              Projects
             </a>
             <a className="nav-item nav-link" href="#">
-              Projects
+              About
             </a>
             <a className="nav-item nav-link" href="#">
               Contact

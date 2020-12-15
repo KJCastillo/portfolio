@@ -13,21 +13,22 @@ class Skills extends Component {
         </div>
         <div className="card-group">
         <div className="frontendSkills">
-          <div class="flip-card">
-            <div class="flip-card-inner">
-              <div class="flip-card-front">
+          <div className="flip-card">
+            <div className="flip-card-inner">
+              <div className="flip-card-front">
                 <img
                   src={frontendLogo}
                   alt="Avatar"
                   style={{ width: "300px", height: "430px" }}
                 />
               </div>
-              <div class="flip-card-back">
+              <div className="flip-card-back">
                 <ul>
                   <li>
                     <img
                       className="icons"
                       src="https://img.icons8.com/color/48/000000/html-5.png"
+                      alt="icons"
                     />
                     HTML 5
                   </li>
@@ -35,6 +36,7 @@ class Skills extends Component {
                     <img
                       className="icons"
                       src="https://img.icons8.com/color/48/000000/css3.png"
+                      alt="icons"
                     />
                     CSS
                   </li>
@@ -42,6 +44,7 @@ class Skills extends Component {
                     <img
                       className="icons"
                       src="https://img.icons8.com/color/48/000000/javascript.png"
+                      alt="icons"
                     />
                     JavaScript
                   </li>
@@ -49,6 +52,7 @@ class Skills extends Component {
                     <img
                       className="icons"
                       src="https://img.icons8.com/color/48/000000/bootstrap.png"
+                      alt="icons"
                     />
                     Bootstrap
                   </li>
@@ -56,6 +60,7 @@ class Skills extends Component {
                     <img
                       className="icons"
                       src="https://img.icons8.com/ios-filled/50/000000/jquery.png"
+                      alt="icons"
                     />
                     jQuery
                   </li>
@@ -63,6 +68,7 @@ class Skills extends Component {
                     <img
                       className="icons"
                       src="https://img.icons8.com/color/48/000000/react-native.png"
+                      alt="icons"
                     />
                     React.js
                   </li>
@@ -72,21 +78,22 @@ class Skills extends Component {
           </div>
         </div>
         <div className="backendSkills">
-          <div class="flip-card">
-            <div class="flip-card-inner">
-              <div class="flip-card-front">
+          <div className="flip-card">
+            <div className="flip-card-inner">
+              <div className="flip-card-front">
                 <img
                   src={backendLogo}
                   alt="Avatar"
                   style={{ width: "300px", height: "430px" }}
                 />
               </div>
-              <div class="flip-card-back">
+              <div className="flip-card-back">
                 <ul>
                   <li className="backList">
                     <img
                       className="icons"
                       src="https://img.icons8.com/plumpy/48/000000/test-tube.png"
+                      alt="icons"
                     />
                     Flask
                   </li>
@@ -94,6 +101,7 @@ class Skills extends Component {
                     <img
                       className="icons"
                       src="https://img.icons8.com/color/48/000000/python.png"
+                      alt="icons"
                     />
                     Python
                   </li>
@@ -101,6 +109,7 @@ class Skills extends Component {
                     <img
                       className="icons"
                       src="https://img.icons8.com/color/48/000000/sql.png"
+                      alt="icons"
                     />
                     SQL
                   </li>
@@ -108,6 +117,7 @@ class Skills extends Component {
                     <img
                       className="icons"
                       src="https://img.icons8.com/color/48/000000/api.png"
+                      alt="icons"
                     />
                     REST API
                   </li>
@@ -117,21 +127,22 @@ class Skills extends Component {
           </div>
         </div>
         <div className="otherSkills">
-          <div class="flip-card">
-            <div class="flip-card-inner">
-              <div class="flip-card-front">
+          <div className="flip-card">
+            <div className="flip-card-inner">
+              <div className="flip-card-front">
                 <img
                   src={otherLogo}
                   alt="Avatar"
                   style={{ width: "300px", height: "430px" }}
                 />
               </div>
-              <div class="flip-card-back">
+              <div className="flip-card-back">
                 <ul>
                   <li className="otherList">
                     <img
                       className="icons"
                       src="https://img.icons8.com/color/48/000000/git.png"
+                      alt="icons"
                     />
                     Git
                   </li>
@@ -139,6 +150,7 @@ class Skills extends Component {
                     <img
                       className="icons"
                       src="https://img.icons8.com/fluent/48/000000/github.png"
+                      alt="icons"
                     />
                     Github
                   </li>
@@ -146,6 +158,7 @@ class Skills extends Component {
                     <img
                       className="icons"
                       src="https://img.icons8.com/color/48/000000/heroku.png"
+                      alt="icons"
                     />
                     Heroku
                   </li>
@@ -153,6 +166,7 @@ class Skills extends Component {
                     <img
                       className="icons"
                       src="https://img.icons8.com/fluent/48/000000/adobe-photoshop.png"
+                      alt="icons"
                     />
                     Adobe Photoshop
                   </li>
@@ -160,6 +174,7 @@ class Skills extends Component {
                     <img
                       className="icons"
                       src="https://img.icons8.com/color/48/000000/adobe-illustrator.png"
+                      alt="icons"
                     />
                     Adobe Illustrator
                   </li>

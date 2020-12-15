@@ -15,6 +15,15 @@ ul {
 
 li {
   padding: 12px;
+  padding-left: 0;
+}
+
+.backList {
+  padding-top: 80px;
+}
+
+.otherList {
+  padding-top: 40px;
 }
 
 a, a:visited {

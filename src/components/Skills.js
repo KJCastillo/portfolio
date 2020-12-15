@@ -83,7 +83,7 @@ class Skills extends Component {
               </div>
               <div class="flip-card-back">
                 <ul>
-                  <li>
+                  <li className="backList">
                     <img
                       className="icons"
                       src="https://img.icons8.com/plumpy/48/000000/test-tube.png"
@@ -128,7 +128,7 @@ class Skills extends Component {
               </div>
               <div class="flip-card-back">
                 <ul>
-                  <li>
+                  <li className="otherList">
                     <img
                       className="icons"
                       src="https://img.icons8.com/color/48/000000/git.png"

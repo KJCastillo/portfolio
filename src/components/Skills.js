@@ -5,6 +5,9 @@ class Skills extends Component {
   render() {
     return (
       <div className="Skills">
+        <div>
+          <h1 className="skillsTitle">Skills</h1>
+        </div>
         <div className="frontendSkills">
           <h1 className="titleSkills">Frontend</h1>
           <ul>

@@ -86,7 +86,7 @@ a:hover {
   margin: 0 auto;
 }
 
-.skillsTitle {
+.skillsTitle, .projectTitle {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -145,4 +145,35 @@ a:hover {
   background-color: #41B6E6;
   color: white;
   transform: rotateY(180deg);
+}
+
+.Projects {
+  background: lightgray;
+  padding-top: 15px;
+  padding-left: 18px;
+  padding-right: 18px;
+  color: black;
+  text-shadow: 3px 3px 5px  #DB3EB1;
+  height: 1000px;
+}
+
+.projectOne, .projectTwo, .projectThree {
+  width: 400px;
+  height: 600px;
+}
+
+.carousel-indicators li { visibility: hidden; }
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
 }

@@ -9,7 +9,6 @@ class Projects extends Component {
         <div className="projectTitle">
           <h1>Projects</h1>
         </div>
-
         <div className="row">
         <Carousel className="projectOne column">
           <Carousel.Item interval={10000}>
@@ -51,7 +50,6 @@ class Projects extends Component {
             </Carousel.Caption>
           </Carousel.Item>
         </Carousel>
-
         <Carousel className="projectTwo column">
           <Carousel.Item interval={10000}>
             <img
@@ -91,8 +89,7 @@ class Projects extends Component {
               </p>
             </Carousel.Caption>
           </Carousel.Item>
-        </Carousel>
-        
+        </Carousel>        
         <Carousel className="projectThree column">
           <Carousel.Item interval={10000}>
             <img

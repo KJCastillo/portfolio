@@ -1,6 +1,9 @@
 import React, { Component } from "react";
 import "../App.css";
 import Carousel from "react-bootstrap/Carousel";
+import MiamiTechHome from "../img/MiamiTechHome.png";
+import MiamiTech from "../img/MiamiTech.png";
+import MiamiTechJobs from "../img/MiamiTechJobs.png";
 
 class Projects extends Component {
   render() {
@@ -10,126 +13,104 @@ class Projects extends Component {
           <h1>Projects</h1>
         </div>
         <div className="row">
-        <Carousel className="projectOne column">
-          <Carousel.Item interval={10000}>
-            <img
-              className="d-block w-100"
-              src="https://www.gettyimages.com/gi-resources/images/500px/983703508.jpg"
-              style={{ width: "500px", height: "500px" }}
-              alt="First slide"
-            />
-            <Carousel.Caption>
-              <h3>First slide label</h3>
-              <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-            </Carousel.Caption>
-          </Carousel.Item>
-          <Carousel.Item interval={10000}>
-            <img
-              className="d-block w-100"
-              src="https://www.gettyimages.com/gi-resources/images/500px/983703508.jpg"
-              style={{ width: "500px", height: "500px" }}
-              alt="Third slide"
-            />
-            <Carousel.Caption>
-              <h3>Second slide label</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-            </Carousel.Caption>
-          </Carousel.Item>
-          <Carousel.Item interval={10000}>
-            <img
-              className="d-block w-100"
-              src="https://iso.500px.com/wp-content/uploads/2016/03/stock-photo-142984111.jpg"
-              style={{ width: "500px", height: "500px" }}
-              alt="Third slide"
-            />
-            <Carousel.Caption>
-              <h3>Third slide label</h3>
-              <p>
-                Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-              </p>
-            </Carousel.Caption>
-          </Carousel.Item>
-        </Carousel>
-        <Carousel className="projectTwo column">
-          <Carousel.Item interval={10000}>
-            <img
-              className="d-block w-100"
-              src="https://www.gettyimages.com/gi-resources/images/500px/983703508.jpg"
-              style={{ width: "500px", height: "500px" }}
-              alt="First slide"
-            />
-            <Carousel.Caption>
-              <h3>First slide label</h3>
-              <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-            </Carousel.Caption>
-          </Carousel.Item>
-          <Carousel.Item interval={10000}>
-            <img
-              className="d-block w-100"
-              src="https://www.gettyimages.com/gi-resources/images/500px/983703508.jpg"
-              style={{ width: "500px", height: "500px" }}
-              alt="Third slide"
-            />
-            <Carousel.Caption>
-              <h3>Second slide label</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-            </Carousel.Caption>
-          </Carousel.Item>
-          <Carousel.Item interval={10000}>
-            <img
-              className="d-block w-100"
-              src="https://iso.500px.com/wp-content/uploads/2016/03/stock-photo-142984111.jpg"
-              style={{ width: "500px", height: "500px" }}
-              alt="Third slide"
-            />
-            <Carousel.Caption>
-              <h3>Third slide label</h3>
-              <p>
-                Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-              </p>
-            </Carousel.Caption>
-          </Carousel.Item>
-        </Carousel>        
-        <Carousel className="projectThree column">
-          <Carousel.Item interval={10000}>
-            <img
-              className="d-block w-100"
-              src="https://www.gettyimages.com/gi-resources/images/500px/983703508.jpg"
-              style={{ width: "500px", height: "500px" }}
-              alt="First slide"
-            />
-            <Carousel.Caption>
-              <h3>First slide label</h3>
-              <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-            </Carousel.Caption>
-          </Carousel.Item>
-          <Carousel.Item interval={10000}>
-            <img
-              className="d-block w-100"
-              src="https://www.gettyimages.com/gi-resources/images/500px/983703508.jpg"
-              style={{ width: "500px", height: "500px" }}
-              alt="Third slide"
-            />
-            <Carousel.Caption>
-              <h3>Second slide label</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-            </Carousel.Caption>
-          </Carousel.Item>
-          <Carousel.Item interval={10000}>
-            <img
-              className="d-block w-100"
-              src="https://iso.500px.com/wp-content/uploads/2016/03/stock-photo-142984111.jpg"
-              style={{ width: "500px", height: "500px" }}
-              alt="Third slide"
-            />
-            <Carousel.Caption>
-              <h3>Third slide label</h3>
-              <p>
-                Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-              </p>
-            </Carousel.Caption>
-          </Carousel.Item>
-        </Carousel>
+          {/* START OF MIAMI TECH */}
+          <div className="column">
+          <Carousel className="projectOne" interval={null}>
+            <Carousel.Item>
+              <img
+                className="d-block w-100"
+                src={MiamiTechHome}
+                style={{ width: "500px", height: "500px" }}
+                alt="First slide"
+              />
+            </Carousel.Item>
+            <Carousel.Item>
+              <img
+                className="d-block w-100"
+                src={MiamiTech}
+                style={{ width: "500px", height: "500px" }}
+                alt="Second slide"
+              />
+            </Carousel.Item>
+            <Carousel.Item>
+              <img
+                className="d-block w-100"
+                src={MiamiTechJobs}
+                style={{ width: "500px", height: "500px" }}
+                alt="Third slide"
+              />
+            </Carousel.Item>
+          </Carousel>
+          <div className="projectOneInfo">
+          <h1>Miami Tech Works</h1>
+          <p>A portal created by the coalition of Miami's business, education and government leaders combining resources to help local citizens. Volunteered to design Jobs Section for desktop and mobile view using Gatsby.js</p>
+          </div>
+          </div>
+
+            
+          {/* START OF LIBERTY MALL */}
+          <div className="column">
+          <Carousel className="projectTwo" interval={null}>
+            <Carousel.Item>
+              <img
+                className="d-block w-100"
+                src="https://www.gettyimages.com/gi-resources/images/500px/983703508.jpg"
+                style={{ width: "500px", height: "500px" }}
+                alt="First slide"
+              />
+            </Carousel.Item>
+            <Carousel.Item>
+              <img
+                className="d-block w-100"
+                src="https://www.gettyimages.com/gi-resources/images/500px/983703508.jpg"
+                style={{ width: "500px", height: "500px" }}
+                alt="Second slide"
+              />
+            </Carousel.Item>
+            <Carousel.Item>
+              <img
+                className="d-block w-100"
+                src="https://iso.500px.com/wp-content/uploads/2016/03/stock-photo-142984111.jpg"
+                style={{ width: "500px", height: "500px" }}
+                alt="Third slide"
+              />
+            </Carousel.Item>
+          </Carousel>
+          <p>test test test</p>
+              </div>
+
+
+            
+          {/* START OF MOVIESAPI*/}
+          <div className="column">
+          <Carousel className="projectThree" interval={null}>
+            <Carousel.Item>
+              <img
+                className="d-block w-100"
+                src="https://www.gettyimages.com/gi-resources/images/500px/983703508.jpg"
+                style={{ width: "500px", height: "500px" }}
+                alt="First slide"
+              />
+            </Carousel.Item>
+            <Carousel.Item>
+              <img
+                className="d-block w-100"
+                src="https://www.gettyimages.com/gi-resources/images/500px/983703508.jpg"
+                style={{ width: "500px", height: "500px" }}
+                alt="Second slide"
+              />
+            </Carousel.Item>
+            <Carousel.Item>
+              <img
+                className="d-block w-100"
+                src="https://iso.500px.com/wp-content/uploads/2016/03/stock-photo-142984111.jpg"
+                style={{ width: "500px", height: "500px" }}
+                alt="Third slide"
+              />
+            </Carousel.Item>
+          </Carousel>
+          <p>test test test</p>
+          </div>
         </div>
       </div>
     );

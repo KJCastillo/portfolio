@@ -7,6 +7,12 @@
   }
 }
 
+::-webkit-scrollbar {
+  width: 0px;
+  height: 0px;
+  background: transparent; /* make scrollbar transparent */
+}
+
 @import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
 
 ul {
@@ -45,7 +51,7 @@ a:hover {
   /* background-image: url(./img/wallpaper2.png); */
   /* background-image: url(./img/miami.png); */
   background-image: url(./img/nature.png);
-  width: 1440px;
+  width: 1425px;
   height: 650px;
   display: flex;
   padding-top: 200px
@@ -150,7 +156,7 @@ a:hover {
 .Projects {
   background: lightgray;
   padding-top: 15px;
-  padding-left: 18px;
+  padding-left: 60px;
   padding-right: 18px;
   color: black;
   text-shadow: 3px 3px 5px  #DB3EB1;
@@ -159,7 +165,7 @@ a:hover {
 
 .projectOne, .projectTwo, .projectThree {
   width: 400px;
-  height: 600px;
+  height: 530px;
 }
 
 .carousel-indicators li { visibility: hidden; }
@@ -168,7 +174,7 @@ a:hover {
   float: left;
   width: 33.33%;
   padding: 10px;
-  height: 300px; /* Should be removed. Only for demonstration */
+  height: 500px; /* Should be removed. Only for demonstration */
 }
 
 /* Clear floats after the columns */
@@ -176,4 +182,9 @@ a:hover {
   content: "";
   display: table;
   clear: both;
+}
+
+.projectOneInfo {
+  text-align: center;
+  width: 400px;
 }

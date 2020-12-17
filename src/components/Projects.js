@@ -4,6 +4,10 @@ import Carousel from "react-bootstrap/Carousel";
 import MiamiTechHome from "../img/MiamiTechHome.png";
 import MiamiTech from "../img/MiamiTech.png";
 import MiamiTechJobs from "../img/MiamiTechJobs.png";
+import libertyMallSearch from "../img/libertyMallSearch.png";
+import libertyMallRegister from "../img/libertyMallRegister.png";
+import cart from "../img/cart.png";
+import loginModal from "../img/loginModal.png";
 
 class Projects extends Component {
   render() {
@@ -54,7 +58,7 @@ class Projects extends Component {
             <Carousel.Item>
               <img
                 className="d-block w-100"
-                src="https://www.gettyimages.com/gi-resources/images/500px/983703508.jpg"
+                src={libertyMallSearch}
                 style={{ width: "500px", height: "500px" }}
                 alt="First slide"
               />
@@ -62,7 +66,7 @@ class Projects extends Component {
             <Carousel.Item>
               <img
                 className="d-block w-100"
-                src="https://www.gettyimages.com/gi-resources/images/500px/983703508.jpg"
+                src={loginModal}
                 style={{ width: "500px", height: "500px" }}
                 alt="Second slide"
               />
@@ -70,7 +74,15 @@ class Projects extends Component {
             <Carousel.Item>
               <img
                 className="d-block w-100"
-                src="https://iso.500px.com/wp-content/uploads/2016/03/stock-photo-142984111.jpg"
+                src={libertyMallRegister}
+                style={{ width: "500px", height: "500px" }}
+                alt="Third slide"
+              />
+            </Carousel.Item>
+            <Carousel.Item>
+              <img
+                className="d-block w-100"
+                src={cart}
                 style={{ width: "500px", height: "500px" }}
                 alt="Third slide"
               />

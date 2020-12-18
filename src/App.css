@@ -51,7 +51,7 @@ a:hover {
   /* background-image: url(./img/wallpaper2.png); */
   /* background-image: url(./img/miami.png); */
   background-image: url(./img/nature.png);
-  width: 1425px;
+  width: 1440px;
   height: 650px;
   display: flex;
   padding-top: 200px
@@ -80,23 +80,6 @@ a:hover {
 
 .intro {
   text-shadow: 3px 3px 5px #DB3EB1;
-}
-
-.Skills {
-  color: black;
-  text-shadow: 3px 3px 5px #41B6E6;
-  height: 600px;
-  padding-top: 15px;
-  font-family: 'Oswald', sans-serif;
-  width: 75%;
-  margin: 0 auto;
-}
-
-.skillsTitle, .projectTitle {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  text-align: center;
 }
 
 .card-group {
@@ -153,18 +136,40 @@ a:hover {
   transform: rotateY(180deg);
 }
 
-.Projects {
-  background: lightgray;
-  padding-top: 15px;
-  padding-left: 60px;
-  padding-right: 18px;
+.Skills {
   color: black;
+  text-shadow: 3px 3px 5px #41B6E6;
+  height: 600px;
+  padding-top: 15px;
+  font-family: 'Oswald', sans-serif;
+  width: 75%;
+  margin: 0 auto;
+}
+
+.skillsTitle, .projectTitle {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.projectTitle {
+  padding-bottom: 30px;
   text-shadow: 3px 3px 5px  #DB3EB1;
+}
+
+.Projects {
+  background: #f5f5f5;
+  padding-top: 15px;
+  padding-left: 40px;
+  padding-right: 40px;
+  color: black;
   height: 1000px;
 }
 
-.projectOne, .projectTwo, .projectThree {
-  width: 400px;
+/* .projectOne,  */
+.projectTwo, .projectThree {
+  width: 500px;
   height: 530px;
 }
 
@@ -184,7 +189,39 @@ a:hover {
   clear: both;
 }
 
-.projectOneInfo {
+/* .projectOneInfo {
   text-align: center;
   width: 400px;
+} */
+
+.firstProject {
+  display: flex;
+}
+
+.projectOne {
+  width: 650px;
+}
+
+.projectOneInfo {
+  flex: 1;
+  margin-top: 14%;
+  padding-left: 12px;
+  text-align: right;
+  justify-content: center;
+}
+
+.secondProject {
+  display: flex;
+}
+
+.projectTwoInfo {
+  width: 650px;
+}
+
+.projectTwo {
+  flex: 1;
+  margin-top: 14%;
+  padding-left: 12px;
+  text-align: right;
+  justify-content: center;
 }

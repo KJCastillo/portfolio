@@ -164,7 +164,7 @@ a:hover {
   padding-left: 40px;
   padding-right: 40px;
   color: black;
-  height: 1200px;
+  height: 1800px;
 }
 
 .carousel-indicators li { 
@@ -203,26 +203,46 @@ a:hover {
 
 .projectOneInfo {
   flex: 1;
-  margin-top: 14%;
+  margin-top: 12%;
   padding-left: 12px;
   text-align: right;
   justify-content: center;
 }
 
+.lmLogo, .mwLogo, .movieLogo {
+  padding-bottom: 20px;
+}
+
 .secondProject {
   display: flex;
-  padding-top: 30px;
+  padding-top: 50px;
 }
 
 .projectTwoInfo {
   width: 600px;
-  margin-top: 14%;
-  padding-left: 12px;
+  margin-top: 12%;
+  padding-right: 12px;
   text-align: left;
   justify-content: center;
 }
 
 .projectTwo {
   flex: 1;
-  
+}
+
+.thirdProject {
+  display: flex;
+  padding-top: 50px;
+}
+
+.projectThree {
+  width: 650px;
+}
+
+.projectThreeInfo {
+  flex: 1;
+  margin-top: 12%;
+  padding-left: 12px;
+  text-align: right;
+  justify-content: center;
 }

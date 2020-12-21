@@ -3,6 +3,7 @@ import Navbar from './components/Navbar';
 import Home from './components/Home';
 import Skills from './components/Skills';
 import Projects from './components/Projects';
+import About from './components/About';
 
 // it('renders without crashing', () => {
 //   const div = document.createElement('div');
@@ -18,6 +19,7 @@ export const Layout = () => {
 					<Home />
 					<Skills />
 					<Projects />
+					<About />
 		</div>
 	);
 };

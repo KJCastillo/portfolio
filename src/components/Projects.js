@@ -53,7 +53,7 @@ class Projects extends Component {
           <div className="secondProject">
           <div className="projectTwoInfo">
             <h1>Liberty Mall</h1>
-            <p>A portal created by the coalition of Miami's business, education and government leaders combining resources to help local citizens. Volunteered to design Jobs Section for desktop and mobile view using Gatsby.js</p>
+            <p>An online shope that uses Amazon's API to gather product information to sell to the public. Frontend created on a React.js framework using HTML, CSS, and JavScript. Backend created on a Flask framework using Python and SQLAlchemy</p>
           </div>
           <Carousel className="projectTwo" interval={null}>
             <Carousel.Item>

@@ -164,22 +164,26 @@ a:hover {
   padding-left: 40px;
   padding-right: 40px;
   color: black;
-  height: 1000px;
+  height: 1200px;
 }
 
-/* .projectOne,  */
-.projectTwo, .projectThree {
-  width: 500px;
-  height: 530px;
+.carousel-indicators li { 
+  visibility: hidden;
 }
 
-.carousel-indicators li { visibility: hidden; }
+.carousel-control-next-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='teal' width='8' height='8' viewBox='0 0 8 8'%3e%3cpath d='M2.75 0l-1.5 1.5L3.75 4l-2.5 2.5L2.75 8l4-4-4-4z'/%3e%3c/svg%3e");
+}
+
+.carousel-control-prev-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='teal' width='8' height='8' viewBox='0 0 8 8'%3e%3cpath d='M5.25 0l-4 4 4 4 1.5-1.5L4.25 4l2.5-2.5L5.25 0z'/%3e%3c/svg%3e")
+}
 
 .column {
   float: left;
   width: 33.33%;
   padding: 10px;
-  height: 500px; /* Should be removed. Only for demonstration */
+  height: 500px;
 }
 
 /* Clear floats after the columns */
@@ -188,11 +192,6 @@ a:hover {
   display: table;
   clear: both;
 }
-
-/* .projectOneInfo {
-  text-align: center;
-  width: 400px;
-} */
 
 .firstProject {
   display: flex;
@@ -212,16 +211,18 @@ a:hover {
 
 .secondProject {
   display: flex;
+  padding-top: 30px;
 }
 
 .projectTwoInfo {
-  width: 650px;
+  width: 600px;
+  margin-top: 14%;
+  padding-left: 12px;
+  text-align: left;
+  justify-content: center;
 }
 
 .projectTwo {
   flex: 1;
-  margin-top: 14%;
-  padding-left: 12px;
-  text-align: right;
-  justify-content: center;
+  
 }

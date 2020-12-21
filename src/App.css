@@ -146,7 +146,7 @@ a:hover {
   margin: 0 auto;
 }
 
-.skillsTitle, .projectTitle {
+.skillsTitle, .projectTitle, .aboutTitle {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -165,6 +165,8 @@ a:hover {
   padding-right: 40px;
   color: black;
   height: 1750px;
+  font-family: 'Oswald', sans-serif;
+  font-size: 18px;
 }
 
 .carousel-indicators li { 
@@ -249,5 +251,11 @@ a:hover {
 
 .About {
   height: 600px;
-  background: tomato;
+  padding-top: 15px;
+  font-family: 'Oswald', sans-serif;
+}
+
+.aboutTitle {
+  padding-bottom: 30px;
+  text-shadow: 3px 3px 5px #41B6E6;
 }

@@ -256,12 +256,48 @@ a:hover {
 }
 
 .About {
-  height: 600px;
+  height: 800px;
   padding-top: 15px;
+  padding-left: 40px;
+  padding-right: 40px;
+  font-size: 18px;
   font-family: 'Oswald', sans-serif;
+  background: aliceblue;
 }
 
 .aboutTitle {
   padding-bottom: 30px;
   text-shadow: 3px 3px 5px #41B6E6;
+}
+
+.AboutMe {
+  display: flex;
+}
+
+.bioOne {
+  width: 700px;
+  text-align: center;
+  justify-content: center;
+}
+
+.bioOneImg {
+  flex: 1;
+  text-align: center;
+}
+
+.AboutMeTwo {
+  display: flex;
+}
+
+.bioTwoImg {
+  width: 700px;
+  margin-top: -140px;
+  text-align: center;
+  justify-content: center;
+}
+
+.bioTwo {
+  margin-top: 20px;
+  flex: 1;
+  text-align: center;
 }

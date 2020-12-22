@@ -249,6 +249,12 @@ a:hover {
   justify-content: center;
 }
 
+.moviesLogo {
+  height: 180px;
+  width: 180px;
+  border-radius: 50%;
+}
+
 .About {
   height: 600px;
   padding-top: 15px;

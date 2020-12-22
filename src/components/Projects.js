@@ -13,7 +13,7 @@ import mwLogo from "../img/mwLogo.png";
 import moviesAPI from "../img/moviesAPI.png";
 import movies2API from "../img/movies2API.png";
 import searchAPI from "../img/searchAPI.png";
-import movieLogo from "../img/movieLogo.png";
+import moviesLogo from "../img/moviesLogo.png";
 
 class Projects extends Component {
   render() {
@@ -61,7 +61,7 @@ class Projects extends Component {
           <div className="projectOneInfo">
             <h1 className="lmLogo"><img src={lmLogo}/></h1>
             <p>
-              An online shope that uses Amazon's API to gather product
+              An online shop that uses Amazon's API to gather product
               information to sell to the public. Frontend created on a React.js
               framework using HTML, CSS, and JavScript. Backend created on a
               Flask framework using Python and SQLAlchemy
@@ -136,12 +136,9 @@ class Projects extends Component {
             </Carousel.Item>
           </Carousel>
           <div className="projectThreeInfo">
-            <h1 className="movieLogo"><img src={movieLogo}/></h1>
+            <h1 className="movieLogo"><img className="moviesLogo" src={moviesLogo}/></h1>
             <p>
-              An online shope that uses Amazon's API to gather product
-              information to sell to the public. Frontend created on a React.js
-              framework using HTML, CSS, and JavScript. Backend created on a
-              Flask framework using Python and SQLAlchemy
+              A website that uses an API to populate movie information. Additional movie information will redirect site to the IMDB database. Project created using HTML, CSS, JavaScript and jQuery. 
             </p>
           </div>
         </div>

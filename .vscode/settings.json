@@ -5,7 +5,9 @@
         "browserslist",
         "cpath",
         "csvg",
+        "describedby",
         "haspopup",
+        "i",
         "imdb",
         "jitsu",
         "labelledby",
@@ -13,7 +15,9 @@
         "of",
         "photoshop",
         "start",
+        "template",
         "testreact",
+        "udkb",
         "ycth"
     ]
 }

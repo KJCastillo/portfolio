@@ -7,7 +7,7 @@ import scotland from "../img/scotland.png";
 class About extends Component {
   render() {
     return (
-      <div className="About">
+      <div className="About" id="about">
         <div className="aboutTitle">
           <h1>About</h1>
         </div>

@@ -1,9 +1,10 @@
-import React from 'react';
-import Navbar from './components/Navbar';
-import Home from './components/Home';
-import Skills from './components/Skills';
-import Projects from './components/Projects';
-import About from './components/About';
+import React from "react";
+import { BrowserRouter, Route, Switch } from "react-router-dom";
+import Navbar from "./components/Navbar";
+import Home from "./components/Home";
+import Skills from "./components/Skills";
+import Projects from "./components/Projects";
+//import About from "./components/About";
 
 // it('renders without crashing', () => {
 //   const div = document.createElement('div');
@@ -11,17 +12,20 @@ import About from './components/About';
 // });
 
 export const Layout = () => {
-	//const basename = process.env.BASENAME || "";
+  //const basename = process.env.BASENAME || "";
 
-	return (
-		<div className="d-flex flex-column h-100">
-					<Navbar />
-					<Home />
-					<Skills />
-					<Projects />
-					<About />
-		</div>
-	);
+  return (
+    <div className="d-flex flex-column h-100">
+      <BrowserRouter>
+        <Navbar />
+        <Switch>
+          <Route exact path="/" component={Home} />
+          <Route exact path="/projects" component={Projects} />
+          <Route exact path="/skills" component={Skills} />
+        </Switch>
+      </BrowserRouter>
+    </div>
+  );
 };
 
 export default Layout;

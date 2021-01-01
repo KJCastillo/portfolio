@@ -1,10 +1,13 @@
 import React, { Component } from "react";
 import "../App.css";
 import profile from "../img/profile.png";
+import Skills from "./Skills";
+import About from "./About";
 
 class Home extends Component {
   render() {
     return (
+      <div>
       <div className="home">
           <div className="profileDiv">
             <img className="profilePic" src={profile} alt=""/>
@@ -15,7 +18,11 @@ class Home extends Component {
               I&apos;m a Full Stack Developer with a passion for coding &amp; design!
             </h2>
             <button type="button" className="btn btn-light">Learn more!</button>
+            <button type="button" className="btn btn-light" onClick={() => this.props.history.push("/projects")}>Check out my projects!</button>
           </div>
+      </div>
+      <Skills />
+      <About />
       </div>
     );
   }

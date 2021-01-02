@@ -59,7 +59,7 @@ class Projects extends Component {
             </Carousel.Item>
           </Carousel>
           <div className="projectOneInfo">
-            <h1 className="lmLogo"><img src={lmLogo}/></h1>
+            <h1 className="lmLogo"><img src={lmLogo} alt=""/></h1>
             <p>
               An online shop that uses Amazon's API to gather product
               information to sell to the public. Frontend created on a React.js
@@ -71,7 +71,7 @@ class Projects extends Component {
 
         <div className="secondProject">
           <div className="projectTwoInfo">
-            <h1 className="mwLogo"><img src={mwLogo}/></h1>
+            <h1 className="mwLogo"><img src={mwLogo} alt=""/></h1>
             <p>
               A portal created by the coalition of Miami's business, education
               and government leaders combining resources to help local citizens.
@@ -136,7 +136,7 @@ class Projects extends Component {
             </Carousel.Item>
           </Carousel>
           <div className="projectThreeInfo">
-            <h1 className="movieLogo"><img className="moviesLogo" src={moviesLogo}/></h1>
+            <h1 className="movieLogo"><img className="moviesLogo" src={moviesLogo} alt=""/></h1>
             <p>
               A website that uses an API to populate movie information. Additional movie information will redirect site to the IMDB database. Project created using HTML, CSS, JavaScript and jQuery. 
             </p>

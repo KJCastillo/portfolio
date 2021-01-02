@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import "../App.css";
 import bjj from "../img/bjj.png";
 import iceland from "../img/iceland.png";
-import scotland from "../img/scotland.png";
+//import scotland from "../img/scotland.png";
 
 class About extends Component {
   render() {
@@ -30,6 +30,7 @@ class About extends Component {
                 className="icelandImg"
                 style={{ height: "360px" }}
                 src={iceland}
+                alt=""
               />
             </div>
           </div>
@@ -42,6 +43,7 @@ class About extends Component {
                 className="bjjImg"
                 style={{ width: "600px", height: "400px" }}
                 src={bjj}
+                alt=""
               />
             </div>
           </div>

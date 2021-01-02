@@ -3,35 +3,39 @@ import "../App.css";
 import emailjs from "emailjs-com";
 
 class Contact extends Component {
-    constructor(props){
+  constructor(props) {
     super(props);
     this.state = {
-        name: "",
-        email: "",
-        subject: "",
-        message: ""
+      name: "",
+      email: "",
+      subject: "",
+      message: "",
     };
     this.handleChange = this.handleChange.bind(this);
     this.handleSubmit = this.handleSubmit.bind(this);
-    }
-    handleChange = (e) => {
-        this.setState({[e.target.name]: e.target.value});
-    }
+  }
+  handleChange = (e) => {
+    this.setState({ [e.target.name]: e.target.value });
+  };
   handleSubmit = (e) => {
     e.preventDefault();
-
     emailjs
-      .sendForm("gmail", "template_udkb3i8", "contact_form_class", "user_dM7tFzM7g30yVg1XTAiM5")
+      .sendForm(
+        "gmail",
+        "emailjs-template",
+        ".contact_form_class",
+        "user_dM7tFzM7g30yVg1XTAiM5"
+      )
       .then()
       .catch();
-      this.setState({
-          name: "",
-          email: "",
-          subject: "",
-          message: ""
-      })  
-      e.target.reset()
-  }
+    this.setState({
+      name: "",
+      email: "",
+      subject: "",
+      message: "",
+    });
+    e.target.reset();
+  };
 
   render() {
     return (
@@ -40,53 +44,57 @@ class Contact extends Component {
           <h1>Contact</h1>
         </div>
         <form onSubmit={this.handleSubmit.bind(this)} className="contact_form_class">
-          <div class="form-group">
-            <label for="exampleInputEmail1">Full Name</label>
+          <div className="form-group">
+            <label htmlFor="exampleInputEmail1">Full Name</label>
             <input
               type="text"
               name="name"
-              class="form-control"
+              className="form-control"
               value={this.state.name}
               aria-describedby="Name"
               placeholder="Full Name"
               onChange={this.handleChange.bind(this)}
             />
           </div>
-          <div class="form-group">
-            <label for="exampleInputEmail1">Email address</label>
+          <div className="form-group">
+            <label htmlFor="exampleInputEmail1">Email address</label>
             <input
               type="email"
               name="email"
-              class="form-control"
+              className="form-control"
               value={this.state.email}
               aria-describedby="emailHelp"
               placeholder="Enter email"
               onChange={this.handleChange.bind(this)}
             />
           </div>
-          <div class="form-group">
-            <label for="exampleInputSubject1">Subject</label>
+          <div className="form-group">
+            <label htmlFor="exampleInputSubject1">Subject</label>
             <input
               type="text"
               name="subject"
-              class="form-control"
+              className="form-control"
               value={this.state.subject}
               aria-describedby="subjectHelp"
               placeholder="Subject"
               onChange={this.handleChange.bind(this)}
             />
           </div>
-          <div class="form-group">
-            <label for="exampleFormControlTextarea1">Example textarea</label>
+          <div className="form-group">
+            <label htmlFor="exampleFormControlTextarea1">
+              Example textarea
+            </label>
             <textarea
-            name="message"
-              class="form-control"
+              name="message"
+              className="form-control"
               value={this.state.message}
               rows="3"
               onChange={this.handleChange.bind(this)}
             ></textarea>
           </div>
-          <input type="submit"></input>
+          <button type="submit" className="btn btn-primary">
+            Submit
+          </button>
         </form>
       </div>
     );

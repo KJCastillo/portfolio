@@ -18,8 +18,8 @@ class Home extends Component {
             <h2 className="intro">
               I&apos;m a Full Stack Developer with a passion for coding &amp; design!
             </h2>
-            <button type="button" className="btn btn-light">Learn more!</button>
-            <button type="button" className="btn btn-light" onClick={() => this.props.history.push("/projects")}>Check out my projects!</button>
+            {/* <button type="button" className="btn btn-light mr-2">Learn more!</button> */}
+            <button type="button" className="btn btn-light mt-3" onClick={() => this.props.history.push("/projects")}>Check out my projects!</button>
           </div>
       </div>
       <Skills />

@@ -303,10 +303,11 @@ a:hover {
 }
 
 .Contact {
-  height: 500px;
+  height: 550px;
+  font-family: 'Oswald', sans-serif;
 }
 
-.contactInput {
+form {
   margin: auto;
   width: 50%;
   padding: 10px;
@@ -319,4 +320,29 @@ a:hover {
 
 .form-label {
   text-shadow: 3px 3px 5px #41B6E6;
+}
+
+/* footer component */
+.fa-github:before {
+  margin-right: 4px;
+}
+
+.footer {
+  background-color: black;
+  color: whitesmoke;
+  font-family: 'Oswald', sans-serif;
+  padding: 0;
+  border-top: 5px solid #DB3EB1;
+  border-bottom: none;
+}
+
+.footer-tag {
+  font-family: 'Oswald', sans-serif;
+  display: inline-block;
+  margin-bottom: 0;
+  font-size: 13px;
+}
+
+.github-footer {
+  height: 28px;
 }

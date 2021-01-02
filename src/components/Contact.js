@@ -45,7 +45,7 @@ class Contact extends Component {
         </div>
         <form onSubmit={this.handleSubmit.bind(this)} className="contact_form_class">
           <div className="form-group">
-            <label htmlFor="exampleInputEmail1">Full Name</label>
+            <label className="form-label" htmlFor="exampleInputEmail1">Full Name</label>
             <input
               type="text"
               name="name"
@@ -57,7 +57,7 @@ class Contact extends Component {
             />
           </div>
           <div className="form-group">
-            <label htmlFor="exampleInputEmail1">Email address</label>
+            <label className="form-label" htmlFor="exampleInputEmail1">Email address</label>
             <input
               type="email"
               name="email"
@@ -69,7 +69,7 @@ class Contact extends Component {
             />
           </div>
           <div className="form-group">
-            <label htmlFor="exampleInputSubject1">Subject</label>
+            <label className="form-label" htmlFor="exampleInputSubject1">Subject</label>
             <input
               type="text"
               name="subject"
@@ -81,8 +81,8 @@ class Contact extends Component {
             />
           </div>
           <div className="form-group">
-            <label htmlFor="exampleFormControlTextarea1">
-              Example textarea
+            <label className="form-label" htmlFor="exampleFormControlTextarea1">
+              Message
             </label>
             <textarea
               name="message"

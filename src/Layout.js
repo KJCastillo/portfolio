@@ -5,6 +5,7 @@ import Home from "./components/Home";
 import Skills from "./components/Skills";
 import Projects from "./components/Projects";
 //import About from "./components/About";
+import Footer from "./components/Footer";
 
 // it('renders without crashing', () => {
 //   const div = document.createElement('div');
@@ -23,6 +24,7 @@ export const Layout = () => {
           <Route exact path="/projects" component={Projects} />
           <Route exact path="/skills" component={Skills} />
         </Switch>
+        <Footer />
       </BrowserRouter>
     </div>
   );

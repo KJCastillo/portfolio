@@ -59,19 +59,35 @@ class Projects extends Component {
             </Carousel.Item>
           </Carousel>
           <div className="projectOneInfo">
-            <h1 className="lmLogo"><img src={lmLogo} alt=""/></h1>
+            <h1 className="lmLogo">
+              <img src={lmLogo} alt="" />
+            </h1>
             <p>
               An online shop that uses Amazon's API to gather product
               information to sell to the public. Frontend created on a React.js
               framework using HTML, CSS, and JavScript. Backend created on a
               Flask framework using Python and SQLAlchemy
             </p>
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              className="navbar-brand ml-auto"
+              href="https://github.com/KJCastillo/AA-KC-MD-Final-Project-Online-Store"
+            >
+              <img
+                className="github-footer mr-1"
+                alt="github"
+                src="https://img.icons8.com/nolan/64/github.png"
+              />
+            </a>
           </div>
         </div>
 
         <div className="secondProject">
           <div className="projectTwoInfo">
-            <h1 className="mwLogo"><img src={mwLogo} alt=""/></h1>
+            <h1 className="mwLogo">
+              <img src={mwLogo} alt="" />
+            </h1>
             <p>
               A portal created by the coalition of Miami's business, education
               and government leaders combining resources to help local citizens.
@@ -107,7 +123,6 @@ class Projects extends Component {
           </Carousel>
         </div>
 
-
         <div className="thirdProject">
           <Carousel className="projectThree" interval={null}>
             <Carousel.Item>
@@ -136,9 +151,13 @@ class Projects extends Component {
             </Carousel.Item>
           </Carousel>
           <div className="projectThreeInfo">
-            <h1 className="movieLogo"><img className="moviesLogo" src={moviesLogo} alt=""/></h1>
+            <h1 className="movieLogo">
+              <img className="moviesLogo" src={moviesLogo} alt="" />
+            </h1>
             <p>
-              A website that uses an API to populate movie information. Additional movie information will redirect site to the IMDB database. Project created using HTML, CSS, JavaScript and jQuery. 
+              A website that uses an API to populate movie information.
+              Additional movie information will redirect site to the IMDB
+              database. Project created using HTML, CSS, JavaScript and jQuery.
             </p>
           </div>
         </div>

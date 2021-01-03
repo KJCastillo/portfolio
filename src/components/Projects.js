@@ -75,7 +75,7 @@ class Projects extends Component {
               href="https://github.com/KJCastillo/AA-KC-MD-Final-Project-Online-Store"
             >
               <img
-                className="github-footer mr-1"
+                className="project-icons"
                 alt="github"
                 src="https://img.icons8.com/nolan/64/github.png"
               />
@@ -101,7 +101,7 @@ class Projects extends Component {
               href="https://github.com/miamiworks/web"
             >
               <img
-                className="github-footer mr-1"
+                className="project-icons"
                 alt="github"
                 src="https://img.icons8.com/nolan/64/github.png"
               />

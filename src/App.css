@@ -87,6 +87,24 @@ a:hover {
   text-align: center;
 }
 
+/* skills component */
+.Skills {
+  color: black;
+  text-shadow: 3px 3px 5px #41B6E6;
+  height: 600px;
+  padding-top: 15px;
+  font-family: 'Oswald', sans-serif;
+  width: 75%;
+  margin: 0 auto;
+}
+
+.skillsTitle, .projectTitle, .aboutTitle, .contactTitle {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
 .frontendSkills, .backendSkills, .otherSkills {
   margin: 20px;
 }
@@ -136,23 +154,7 @@ a:hover {
   transform: rotateY(180deg);
 }
 
-.Skills {
-  color: black;
-  text-shadow: 3px 3px 5px #41B6E6;
-  height: 600px;
-  padding-top: 15px;
-  font-family: 'Oswald', sans-serif;
-  width: 75%;
-  margin: 0 auto;
-}
-
-.skillsTitle, .projectTitle, .aboutTitle, .contactTitle {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  text-align: center;
-}
-
+/* projects component */
 .projectTitle {
   padding-bottom: 30px;
   text-shadow: 3px 3px 5px  #DB3EB1;
@@ -255,6 +257,11 @@ a:hover {
   border-radius: 50%;
 }
 
+.project-icons {
+  height: 35px;
+}
+
+/* about component */
 .About {
   height: 800px;
   padding-top: 15px;
@@ -302,6 +309,7 @@ a:hover {
   text-align: center;
 }
 
+/* contact component */
 .Contact {
   height: 550px;
   font-family: 'Oswald', sans-serif;

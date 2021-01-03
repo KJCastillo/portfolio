@@ -94,6 +94,18 @@ class Projects extends Component {
               Volunteered to design Jobs Section for desktop and mobile view
               using Gatsby.js
             </p>
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              className="navbar-brand ml-auto"
+              href="https://github.com/miamiworks/web"
+            >
+              <img
+                className="github-footer mr-1"
+                alt="github"
+                src="https://img.icons8.com/nolan/64/github.png"
+              />
+            </a>
           </div>
           <Carousel className="projectTwo" interval={null}>
             <Carousel.Item>

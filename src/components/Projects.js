@@ -171,6 +171,18 @@ class Projects extends Component {
               Additional movie information will redirect site to the IMDB
               database. Project created using HTML, CSS, JavaScript and jQuery.
             </p>
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              className="navbar-brand ml-auto"
+              href="https://github.com/KJCastillo/moviesAPI"
+            >
+              <img
+                className="github-footer mr-1"
+                alt="github"
+                src="https://img.icons8.com/nolan/64/github.png"
+              />
+            </a>
           </div>
         </div>
       </div>

@@ -6,6 +6,7 @@ import Home from "./components/Home";
 import Projects from "./components/Projects";
 //import About from "./components/About";
 import Footer from "./components/Footer";
+import {CircleArrow as ScrollUpButton} from "react-scroll-up-button";
 
 // it('renders without crashing', () => {
 //   const div = document.createElement('div');
@@ -18,6 +19,7 @@ export const Layout = () => {
   return (
     <div className="d-flex flex-column h-100">
       <BrowserRouter>
+      <ScrollUpButton style={{border: "5px solid #41B6E6", height: "40px", width: "40px"}}/>
         <Navbar />
         <Switch>
           <Route exact path="/" component={Home} />

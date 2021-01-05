@@ -86,7 +86,13 @@ class Projects extends Component {
         <div className="secondProject">
           <div className="projectTwoInfo">
             <h1 className="mwLogo">
-              <img src={mwLogo} alt="" />
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://miamitech.works/"
+              >
+                <img src={mwLogo} alt="" />
+              </a>
             </h1>
             <p>
               A portal created by the coalition of Miami's business, education

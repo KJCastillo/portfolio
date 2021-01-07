@@ -1,17 +1,21 @@
-import React, { Component } from "react";
+import React, { useEffect } from "react";
 import "../App.css";
+import Aos from 'aos';
+import "aos/dist/aos.css"
 import bjj from "../img/bjj.png";
 import iceland from "../img/iceland.png";
-//import scotland from "../img/scotland.png";
 
-class About extends Component {
-  render() {
+export const About = () =>{
+  useEffect(() => {
+    Aos.init({ duration: 1000})
+  }, [])
     return (
       <div className="About" id="about">
         <div className="aboutTitle">
           <h1>About</h1>
         </div>
 
+        <div data-aos="fade-up">
         <div className="AboutMe">
           <div className="bioOne">
             <h1>A little more about me!</h1>
@@ -35,7 +39,7 @@ class About extends Component {
             </div>
           </div>
         </div>
-
+        
         <div className="AboutMeTwo">
           <div className="bioTwoImg">
             <div className="bjj">
@@ -65,9 +69,11 @@ class About extends Component {
             </p>
           </div>
         </div>
+        </div>
+
       </div>
     );
   }
-}
+
 
 export default About;

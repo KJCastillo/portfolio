@@ -5,7 +5,7 @@ import "aos/dist/aos.css"
 import bjj from "../img/bjj.png";
 import iceland from "../img/iceland.png";
 
-export const About = () =>{
+export const About = () => {
   useEffect(() => {
     Aos.init({ duration: 1000})
   }, [])

@@ -2,7 +2,6 @@
   "name": "testreact",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://KJCastillo.github.io/KJCastillo",
   "dependencies": {
     "aos": "^2.3.4",
     "bootstrap": "^4.5.3",

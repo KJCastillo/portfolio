@@ -1,0 +1,43 @@
+{
+  "files": {
+    "main.css": "/KJCastillo/static/css/main.3e6097ee.chunk.css",
+    "main.js": "/KJCastillo/static/js/main.4db04d8e.chunk.js",
+    "main.js.map": "/KJCastillo/static/js/main.4db04d8e.chunk.js.map",
+    "runtime-main.js": "/KJCastillo/static/js/runtime-main.2b5c2728.js",
+    "runtime-main.js.map": "/KJCastillo/static/js/runtime-main.2b5c2728.js.map",
+    "static/css/2.4707e12a.chunk.css": "/KJCastillo/static/css/2.4707e12a.chunk.css",
+    "static/js/2.65f745a7.chunk.js": "/KJCastillo/static/js/2.65f745a7.chunk.js",
+    "static/js/2.65f745a7.chunk.js.map": "/KJCastillo/static/js/2.65f745a7.chunk.js.map",
+    "index.html": "/KJCastillo/index.html",
+    "precache-manifest.09727bfb4eece2653a85c0fee6970d14.js": "/KJCastillo/precache-manifest.09727bfb4eece2653a85c0fee6970d14.js",
+    "service-worker.js": "/KJCastillo/service-worker.js",
+    "static/css/2.4707e12a.chunk.css.map": "/KJCastillo/static/css/2.4707e12a.chunk.css.map",
+    "static/css/main.3e6097ee.chunk.css.map": "/KJCastillo/static/css/main.3e6097ee.chunk.css.map",
+    "static/js/2.65f745a7.chunk.js.LICENSE.txt": "/KJCastillo/static/js/2.65f745a7.chunk.js.LICENSE.txt",
+    "static/media/MiamiTech.png": "/KJCastillo/static/media/MiamiTech.7e533c73.png",
+    "static/media/MiamiTechHome.png": "/KJCastillo/static/media/MiamiTechHome.b780ecf0.png",
+    "static/media/MiamiTechJobs.png": "/KJCastillo/static/media/MiamiTechJobs.0ad3da49.png",
+    "static/media/backendLogo.png": "/KJCastillo/static/media/backendLogo.7290b88c.png",
+    "static/media/bjj.png": "/KJCastillo/static/media/bjj.732039ff.png",
+    "static/media/cart.png": "/KJCastillo/static/media/cart.fc0271ed.png",
+    "static/media/frontendLogo.png": "/KJCastillo/static/media/frontendLogo.e9ef4b05.png",
+    "static/media/iceland.png": "/KJCastillo/static/media/iceland.a9278ceb.png",
+    "static/media/libertyMallRegister.png": "/KJCastillo/static/media/libertyMallRegister.dd8e7576.png",
+    "static/media/libertyMallSearch.png": "/KJCastillo/static/media/libertyMallSearch.323d553d.png",
+    "static/media/loginModal.png": "/KJCastillo/static/media/loginModal.70192b7e.png",
+    "static/media/movies2API.png": "/KJCastillo/static/media/movies2API.c6578156.png",
+    "static/media/moviesAPI.png": "/KJCastillo/static/media/moviesAPI.81721d0e.png",
+    "static/media/moviesLogo.png": "/KJCastillo/static/media/moviesLogo.0d119072.png",
+    "static/media/App.css": "/KJCastillo/static/media/nature.d70b7a3b.png",
+    "static/media/otherLogo.png": "/KJCastillo/static/media/otherLogo.bb4a61c2.png",
+    "static/media/profile.png": "/KJCastillo/static/media/profile.3072c70e.png",
+    "static/media/searchAPI.png": "/KJCastillo/static/media/searchAPI.507ed0da.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.2b5c2728.js",
+    "static/css/2.4707e12a.chunk.css",
+    "static/js/2.65f745a7.chunk.js",
+    "static/css/main.3e6097ee.chunk.css",
+    "static/js/main.4db04d8e.chunk.js"
+  ]
+}

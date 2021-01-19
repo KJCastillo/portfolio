@@ -1,7 +1,8 @@
 # Portfolio
 
-Portfolio website created to showcase my work for the public and companies.
+Portfolio website created to showcase my work for the public.
 Website created with React.
+Website deployed in Vercel.
 
 > By [Kevin Castillo](https://www.linkedin.com/in/kevinjcastillo/)
 

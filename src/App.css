@@ -48,6 +48,10 @@ a:hover {
   font-family: 'Oswald', sans-serif;
 }
 
+.resume-icon, .linkedin-icon {
+  height: 30px;
+}
+
 .home {
   /* background-image: url(./img/wallpaper2.png); */
   /* background-image: url(./img/miami.png); */

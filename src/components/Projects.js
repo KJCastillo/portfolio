@@ -177,11 +177,17 @@ export const Projects = () => {
         <div className="projectThreeInfo">
           <h1 className="movieLogo">
             <div data-aos="fade-left">
+            <a
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://movies-api.kjcastillo.vercel.app/"
+              >
               <img
                 className="moviesLogo"
                 src={moviesLogo}
                 alt="movies API logo"
               />
+              </a>
             </div>
           </h1>
           <p>

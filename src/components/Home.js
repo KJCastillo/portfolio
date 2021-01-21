@@ -6,10 +6,22 @@ import About from "./About";
 import Contact from "./Contact";
 
 class Home extends Component {
-  render() {
-    return (
-      <div>
-      <div className="home">
+    render() {
+        return (
+            <div className="container-fluid">
+                <div className="jumbotron-fluid">
+                    <div className="row text-center">
+                        <div className="col-sm">
+                        <img className="profilePic mt-1 rounded-circle" height="250" src={profile} alt="" />
+                         </div>
+                        <div className="col-sm">
+                            <h1 className="intro">Hi! I&apos;m Kevin Castillo, pleasure to meet you!</h1>
+                        </div>
+                    </div>
+
+                </div>
+
+                {/* <div className="home">
           <div className="profileDiv">
             <img className="profilePic" src={profile} alt=""/>
           </div>
@@ -20,13 +32,13 @@ class Home extends Component {
             </h2>
             <button type="button" className="btn btn-light mt-3" onClick={() => this.props.history.push("/projects")}>Check out my projects!</button>
           </div>
-      </div>
-      <Skills />
-      <About />
-      <Contact />
-      </div>
-    );
-  }
+      </div> */}
+                <Skills />
+                <About />
+                <Contact />
+            </div>
+        );
+    }
 }
 
 export default Home;

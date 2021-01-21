@@ -45,7 +45,8 @@ export const About = () => {
             <div className="bjj">
               <img
                 className="bjjImg"
-                style={{ width: "600px", height: "400px" }}
+                width="100%" 
+                height="400px"
                 src={bjj}
                 alt=""
               />

@@ -2,19 +2,19 @@ import React, { useEffect } from "react";
 import "../App.css";
 import Aos from "aos";
 import "aos/dist/aos.css";
-import MiamiTechHome from "../img/MiamiTechHome.png";
-import MiamiTech from "../img/MiamiTech.png";
-import MiamiTechJobs from "../img/MiamiTechJobs.png";
+// import MiamiTechHome from "../img/MiamiTechHome.png";
+// import MiamiTech from "../img/MiamiTech.png";
+// import MiamiTechJobs from "../img/MiamiTechJobs.png";
 import libertyMallSearch from "../img/libertyMallSearch.png";
 import libertyMallRegister from "../img/libertyMallRegister.png";
 import cart from "../img/cart.png";
 import loginModal from "../img/loginModal.png";
 import lmLogo from "../img/lmLogo.png";
-import mwLogo from "../img/mwLogo.png";
-import moviesAPI from "../img/moviesAPI.png";
-import movies2API from "../img/movies2API.png";
-import searchAPI from "../img/searchAPI.png";
-import moviesLogo from "../img/moviesLogo.png";
+// import mwLogo from "../img/mwLogo.png";
+// import moviesAPI from "../img/moviesAPI.png";
+// import movies2API from "../img/movies2API.png";
+// import searchAPI from "../img/searchAPI.png";
+// import moviesLogo from "../img/moviesLogo.png";
 
 export const Projects = () => {
   useEffect(() => {

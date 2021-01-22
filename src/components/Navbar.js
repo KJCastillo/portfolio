@@ -43,6 +43,7 @@ class Navbar extends Component {
             >
               <img
                 className="resume-icon"
+                height="32"
                 alt="resume"
                 src="https://img.icons8.com/nolan/64/open-resume.png"
               />
@@ -56,6 +57,7 @@ class Navbar extends Component {
             >
               <img
                 className="linkedin-icon"
+                height="32"
                 alt="linkedin"
                 src="https://img.icons8.com/nolan/64/linkedin.png"
               />

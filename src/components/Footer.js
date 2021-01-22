@@ -5,16 +5,21 @@ class Footer extends Component {
   render() {
     return (
       <div>
-        <nav className="navbar footer">
+        <nav className="navbar footer p-0">
           <a
-          target="_blank"
-          rel="noopener noreferrer"
+            target="_blank"
+            rel="noopener noreferrer"
             className="navbar-brand ml-auto"
             href="https://github.com/KJCastillo/portfolio"
           >
-            <img className="github-footer mr-1" alt="github" src="https://img.icons8.com/nolan/64/github.png"/>
-              <p className="footer-tag">Made by Kevin Castillo</p>
+            <img
+              className="github-footer"
+              height="28"
+              alt="github"
+              src="https://img.icons8.com/nolan/64/github.png"
+            />
           </a>
+          <p className="footer-tag mb-0 pt-1 pr-2">Made by Kevin Castillo</p>
         </nav>
       </div>
     );

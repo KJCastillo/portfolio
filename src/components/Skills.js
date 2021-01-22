@@ -8,12 +8,12 @@ class Skills extends Component {
   render() {
     return (
       <div className="Skills" id="skills">
-        <div className="skillsTitle">
+        <div className="text-center">
           <h1>Skills</h1>
         </div>
-        <div className="card-group">
+        <div className="card-deck justify-content-center pt-4">
         <div className="frontendSkills">
-          <div className="flip-card">
+          <div className="card border-0 flip-card">
             <div className="flip-card-inner">
               <div className="flip-card-front">
                 <img
@@ -78,7 +78,7 @@ class Skills extends Component {
           </div>
         </div>
         <div className="backendSkills">
-          <div className="flip-card">
+          <div className="card border-0 flip-card">
             <div className="flip-card-inner">
               <div className="flip-card-front">
                 <img
@@ -127,7 +127,7 @@ class Skills extends Component {
           </div>
         </div>
         <div className="otherSkills">
-          <div className="flip-card">
+          <div className="card border-0 flip-card">
             <div className="flip-card-inner">
               <div className="flip-card-front">
                 <img

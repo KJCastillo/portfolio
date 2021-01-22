@@ -7,7 +7,7 @@ import otherLogo from "../img/otherLogo.png";
 class Skills extends Component {
   render() {
     return (
-      <div className="Skills" id="skills">
+      <div className="Skills container-fluid bg-white" id="skills">
         <div className="text-center">
           <h1>Skills</h1>
         </div>

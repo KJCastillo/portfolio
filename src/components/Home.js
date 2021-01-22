@@ -8,9 +8,9 @@ import Contact from "./Contact";
 class Home extends Component {
   render() {
     return (
-      <div className="container-fluid p-0">
-        <div className="home jumbotron-fluid">
-          <div className="jumbotron-row row text-center">
+      <div className="jumbotron jumbotron-fluid p-0">
+        <div className="home container-fluid">
+          <div className=" row text-center">
             <div className="col-sm-4">
               <img
                 className="profilePic ml-5 mt-1 rounded-circle"

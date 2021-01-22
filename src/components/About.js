@@ -10,7 +10,7 @@ export const About = () => {
     Aos.init({ duration: 1000 });
   }, []);
   return (
-    <div className="About" id="about">
+    <div className="About container-fluid" id="about">
       <div className="aboutTitle text-center">
         <h1>About</h1>
       </div>
@@ -19,7 +19,7 @@ export const About = () => {
         <div className="row justify-content-center">
           <div className="col-sm-10 pt-4">
             <div className="card-group">
-              <div className="card border-0 ">
+              <div className="card cardAbout border-0 ">
                 <div className="card-body">
                   <h3 className="card-title">A little more about me!</h3>
                   <p className="card-text">
@@ -40,7 +40,7 @@ export const About = () => {
                 </div>
               </div>
 
-              <div className="card border-0">
+              <div className="card cardAbout border-0">
                 <img
                   className="card-img-top bjjImg"
                   width="100%"

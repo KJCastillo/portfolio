@@ -39,7 +39,7 @@ class Contact extends Component {
 
   render() {
     return (
-      <div className="Contact" id="contact">
+      <div className="Contact container-fluid bg-white" id="contact">
         <div className="text-center contactTitle">
           <h1>Contact</h1>
         </div>

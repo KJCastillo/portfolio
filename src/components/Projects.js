@@ -38,7 +38,7 @@ export const Projects = () => {
               <div className="carousel-item active">
                 <img
                   src={libertyMallSearch}
-                  width="auto"
+                  width="100%"
                   height="500"
                   className=""
                   alt="..."
@@ -47,7 +47,7 @@ export const Projects = () => {
               <div className="carousel-item">
                 <img
                   src={loginModal}
-                  width="auto"
+                  width="100%"
                   height="500"
                   className=""
                   alt="..."
@@ -56,7 +56,7 @@ export const Projects = () => {
               <div className="carousel-item">
                 <img
                   src={libertyMallRegister}
-                  width="auto"
+                  width="100%"
                   height="500"
                   className=""
                   alt="..."
@@ -65,7 +65,7 @@ export const Projects = () => {
               <div className="carousel-item">
                 <img
                   src={cart}
-                  width="auto"
+                  width="100%"
                   height="500"
                   className=""
                   alt="..."
@@ -158,7 +158,7 @@ export const Projects = () => {
         </div>
         <div className="col-sm pt-4">
           <div
-            id="carouselExampleControls"
+            id="carouselExampleControls2"
             className="carousel slide"
             data-ride="carousel"
             data-interval="false"
@@ -167,7 +167,7 @@ export const Projects = () => {
               <div className="carousel-item active">
                 <img
                   src={MiamiTechHome}
-                  width="auto"
+                  width="100%"
                   height="500"
                   className=""
                   alt="..."
@@ -176,7 +176,7 @@ export const Projects = () => {
               <div className="carousel-item">
                 <img
                   src={MiamiTech}
-                  width="auto"
+                  width="100%"
                   height="500"
                   className=""
                   alt="..."
@@ -185,7 +185,7 @@ export const Projects = () => {
               <div className="carousel-item">
                 <img
                   src={MiamiTechJobs}
-                  width="auto"
+                  width="100%"
                   height="500"
                   className=""
                   alt="..."
@@ -194,7 +194,7 @@ export const Projects = () => {
             </div>
             <a
               className="carousel-control-prev"
-              href="#carouselExampleControls"
+              href="#carouselExampleControls2"
               role="button"
               data-slide="prev"
             >
@@ -206,7 +206,7 @@ export const Projects = () => {
             </a>
             <a
               className="carousel-control-next"
-              href="#carouselExampleControls"
+              href="#carouselExampleControls2"
               role="button"
               data-slide="next"
             >
@@ -223,7 +223,7 @@ export const Projects = () => {
       <div className="row pt-4">
         <div className="col-sm pt-4">
           <div
-            id="carouselExampleControls"
+            id="carouselExampleControls3"
             className="carousel slide"
             data-ride="carousel"
             data-interval="false"
@@ -232,7 +232,7 @@ export const Projects = () => {
               <div className="carousel-item active">
                 <img
                   src={moviesAPI}
-                  width="auto"
+                  width="100%"
                   height="500"
                   className=""
                   alt="..."
@@ -241,7 +241,7 @@ export const Projects = () => {
               <div className="carousel-item">
                 <img
                   src={movies2API}
-                  width="auto"
+                  width="100%"
                   height="500"
                   className=""
                   alt="..."
@@ -250,7 +250,7 @@ export const Projects = () => {
               <div className="carousel-item">
                 <img
                   src={searchAPI}
-                  width="auto"
+                  width="100%"
                   height="500"
                   className=""
                   alt="..."
@@ -259,7 +259,7 @@ export const Projects = () => {
             </div>
             <a
               className="carousel-control-prev"
-              href="#carouselExampleControls"
+              href="#carouselExampleControls3"
               role="button"
               data-slide="prev"
             >
@@ -271,7 +271,7 @@ export const Projects = () => {
             </a>
             <a
               className="carousel-control-next"
-              href="#carouselExampleControls"
+              href="#carouselExampleControls3"
               role="button"
               data-slide="next"
             >

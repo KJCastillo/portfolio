@@ -28,7 +28,7 @@ export const Projects = () => {
 
       <div className="row">
         <div className="col-sm-8">
-            <img src={lmLogo} alt="liberty mall logo" width="400"/>
+            <img src={lmLogo} alt="liberty mall logo" width="410"/>
             <div className="card-body">
               <p className="card-text">
                 An online shop that uses Amazon's API to gather product

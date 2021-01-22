@@ -13,7 +13,7 @@ export const Layout = () => {
   return (
     <div className="d-flex flex-column h-100">
       <BrowserRouter>
-      <ScrollUpButton style={{zIndex: "100", marginBottom: "30px",border: "5px solid #41B6E6", height: "40px", width: "40px"}}/>
+      <ScrollUpButton style={{zIndex: "100", marginBottom: "30px", border: "5px solid #41B6E6", height: "40px", width: "40px"}}/>
         <Navbar />
         <Switch>
           <Route exact path="/" component={Home} />

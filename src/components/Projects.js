@@ -2,7 +2,6 @@ import React, { useEffect } from "react";
 import "../App.css";
 import Aos from "aos";
 import "aos/dist/aos.css";
-import Carousel from "react-bootstrap/Carousel";
 import MiamiTechHome from "../img/MiamiTechHome.png";
 import MiamiTech from "../img/MiamiTech.png";
 import MiamiTechJobs from "../img/MiamiTechJobs.png";
@@ -22,12 +21,115 @@ export const Projects = () => {
     Aos.init({ duration: 1000 });
   }, []);
   return (
-    <div className="Projects">
-      <div className="projectTitle">
+    <div className="Projects container-fluid">
+      <div className="text-center projectTitle">
         <h1>Projects</h1>
       </div>
 
-      <div className="firstProject">
+      <div className="row">
+        <div className="col-sm-8">
+            <img src={lmLogo} alt="liberty mall logo" width="400"/>
+            <div className="card-body">
+              <p className="card-text">
+                An online shop that uses Amazon's API to gather product
+                information to sell to the public. Frontend created on a
+                React.js framework using HTML, CSS, and JavScript. Backend
+                created on a Flask framework using Python and SQLAlchemy
+              </p>
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                className="navbar-brand ml-auto"
+                href="https://github.com/KJCastillo/AA-KC-MD-Final-Project-Online-Store"
+              >
+                <img
+                  className="project-icons"
+                  alt="github"
+                  src="https://img.icons8.com/nolan/64/github.png"
+                />
+              </a>
+          </div>
+        </div>
+        <div className="col-sm">
+          <div
+            id="carouselExampleControls"
+            className="carousel slide justify-content-center"
+            data-ride="carousel"
+            data-interval="false"
+          >
+            <div className="carousel-inner">
+              <div className="carousel-item active">
+                <img
+                  src={libertyMallSearch}
+                  width="600"
+                  height="500"
+                  className=""
+                  alt="..."
+                />
+              </div>
+              <div className="carousel-item">
+                <img
+                  src={loginModal}
+                  width="600"
+                  height="500"
+                  className=""
+                  alt="..."
+                />
+              </div>
+              <div className="carousel-item">
+                <img
+                  src={libertyMallRegister}
+                  width="600"
+                  height="500"
+                  className=""
+                  alt="..."
+                />
+              </div>
+              <div className="carousel-item">
+                <img
+                  src={cart}
+                  width="600"
+                  height="500"
+                  className=""
+                  alt="..."
+                />
+              </div>
+            </div>
+            <a
+              className="carousel-control-prev"
+              href="#carouselExampleControls"
+              role="button"
+              data-slide="prev"
+            >
+              <span
+                className="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span className="sr-only">Previous</span>
+            </a>
+            <a
+              className="carousel-control-next"
+              href="#carouselExampleControls"
+              role="button"
+              data-slide="next"
+            >
+              <span
+                className="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span className="sr-only">Next</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default Projects;
+
+{
+  /* <div className="firstProject">
         <Carousel className="projectOne" interval={null}>
           <Carousel.Item>
             <img
@@ -208,9 +310,5 @@ export const Projects = () => {
             />
           </a>
         </div>
-      </div>
-    </div>
-  );
-};
-
-export default Projects;
+      </div> */
+}

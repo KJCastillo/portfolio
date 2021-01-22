@@ -4,7 +4,7 @@ import "../App.css";
 class Footer extends Component {
   render() {
     return (
-      <div>
+      <div className="Footer">
         <nav className="navbar footer p-0">
           <a
             target="_blank"

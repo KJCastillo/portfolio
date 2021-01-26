@@ -10,8 +10,8 @@ class Home extends Component {
     return (
       <div className="jumbotron jumbotron-fluid p-0">
         <div className="home container-fluid">
-          <div className=" row text-center">
-            <div className="col-sm-4">
+          <div className="row text-center">
+            <div className="col-sm-4" >
               <img
                 className="profilePic ml-5 mt-1 rounded-circle"
                 height="300"

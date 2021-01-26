@@ -18,6 +18,8 @@ import moviesLogo from "../img/moviesLogo.png";
 
 export const Projects = () => {
   useEffect(() => {
+    Aos.init({disable: 'mobile'});
+    Aos.init({disable: 'tablet'});
     Aos.init({ duration: 1000 });
   }, []);
   return (
@@ -27,7 +29,7 @@ export const Projects = () => {
       </div>
 
       <div className="row">
-        <div className="col-sm pt-4">
+        <div className="projectCarousel col-sm pt-4">
           <div
             id="carouselExampleControls"
             className="carousel slide"
@@ -124,7 +126,7 @@ export const Projects = () => {
       </div>
 
       <div className="row pt-4">
-        <div className="col-sm pt-4 ">
+        <div className="col-sm pt-4">
         <div data-aos="fade-right">
           <a
             target="_blank"
@@ -156,7 +158,7 @@ export const Projects = () => {
             
           </div>
         </div>
-        <div className="col-sm pt-4">
+        <div className="projectCarousel col-sm pt-4">
           <div
             id="carouselExampleControls2"
             className="carousel slide"
@@ -221,7 +223,7 @@ export const Projects = () => {
       </div>
 
       <div className="row pt-4">
-        <div className="col-sm pt-4">
+        <div className="projectCarousel col-sm pt-4">
           <div
             id="carouselExampleControls3"
             className="carousel slide"

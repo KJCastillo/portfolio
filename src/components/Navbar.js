@@ -23,11 +23,11 @@ class Navbar extends Component {
             <Link className="nav-item nav-link" to="/">
               Home
             </Link>
-            <Link className="nav-item nav-link" to="/#skills">
-              Skills
-            </Link>
             <Link className="nav-item nav-link" to="/projects">
               Projects
+            </Link>
+            <Link className="nav-item nav-link" to="/#skills">
+              Skills
             </Link>
             <Link className="nav-item nav-link" to="/#about">
               About

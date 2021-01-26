@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Link } from "react-router-dom";
+import { HashLink as Link } from 'react-router-hash-link';
 import Pdf from "../pdf/Resume.pdf";
 import "../App.css";
 
@@ -29,12 +29,12 @@ class Navbar extends Component {
             <Link className="nav-item nav-link" to="/projects">
               Projects
             </Link>
-            <a className="nav-item nav-link" href="#about">
+            <Link className="nav-item nav-link" to="/#about">
               About
-            </a>
-            <a className="nav-item nav-link" href="#contact">
+            </Link>
+            <Link className="nav-item nav-link" to="/#contact">
               Contact
-            </a>
+            </Link>
             <a
               className="nav-item nav-link ml-auto"
               target="_blank"

@@ -57,15 +57,11 @@ a:hover {
   font-family: 'Oswald', sans-serif;
 }
 
-/* .jumbotron-row {
-  padding-top: 200px;
-} */
-
 .btn {
   font-family: 'Oswald', sans-serif;
 }
 
-/* Skills */
+/* Skills Component */
 .Skills {
   text-shadow: 3px 3px 5px #41B6E6;
   padding-top: 15px;
@@ -127,7 +123,7 @@ li {
   transform: rotateY(180deg);
 }
 
-/* About */
+/* About Component */
 .About {
   padding-top: 15px;
   padding-bottom: 25px;
@@ -144,7 +140,7 @@ li {
   text-shadow: 3px 3px 5px #41B6E6;
 }
 
-/* Contact */
+/* Contact Component */
 .Contact {
   padding-top: 15px;
   padding-bottom: 25px;
@@ -155,14 +151,14 @@ li {
   text-shadow: 3px 3px 5px #41B6E6;
 }
 
-/* Footer */
+/* Footer Component */
 .footer-tag {
   font-family: 'Oswald', sans-serif;
   color: #41B6E6;
   font-size: 13px;
 }
 
-/* Projects */
+/* Projects Component */
 .Projects {
   padding-top: 15px;
   padding-bottom: 25px;
@@ -184,6 +180,12 @@ li {
 /* media queries */
 @media only screen and (max-width: 760px) {
    .projectCarousel {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 1048px) {
+   .profile {
     display: none;
   }
 }

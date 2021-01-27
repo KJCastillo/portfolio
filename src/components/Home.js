@@ -9,17 +9,17 @@ class Home extends Component {
   render() {
     return (
       <div className="jumbotron jumbotron-fluid p-0">
-        <div className="home container-fluid">
-          <div className="row text-center">
-            <div className="col-sm-4" >
+        <div className="home d-flex container-fluid">
+          <div className="row text-center justify-content-center mx-auto align-self-center">
+            <div className="profile col-sm-4">
               <img
                 className="profilePic ml-5 mt-1 rounded-circle"
                 height="300"
                 src={profile}
-                alt=""
+                alt="profile"
               />
             </div>
-            <div className="col-sm">
+            <div className="col-sm ">
               <h1 className="intro pt-5">
                 Hi! I&apos;m Kevin Castillo, pleasure to meet you!
               </h1>

@@ -52,7 +52,6 @@ class Navbar extends Component {
               className="nav-item nav-link"
               target="_blank"
               rel="noopener noreferrer"
-              style={{ paddingLeft: "0" }}
               href="https://www.linkedin.com/in/kevinjcastillo/"
             >
               <img

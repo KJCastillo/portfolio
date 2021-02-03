@@ -7,6 +7,6 @@
 
 > By [Kevin Castillo](https://www.linkedin.com/in/kevinjcastillo/)
 
-npm update
-npm start
-control + z to close port
+- npm update
+- npm start
+- control + z to close port

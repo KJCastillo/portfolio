@@ -30,9 +30,10 @@ export const Projects = () => {
     <div className="Projects container-fluid">
       <div className="text-center projectTitle">
         <h1>Projects</h1>
+        <p>click logo to view project deployed - click github icon to view code</p>
       </div>
       {/* start of to do list react */}
-      <div className="row pt-4 mb-4">
+      <div className="row pt-2 mb-4">
         <div className="col-sm pt-4">
           <div>
           {/* data-aos="fade-right" */}

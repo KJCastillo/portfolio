@@ -13,32 +13,32 @@
   background: transparent; /* make scrollbar transparent */
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Oswald&display=swap");
 
 /* Navbar */
 .navbar {
   background: black;
-  border-bottom: 5px solid #DB3EB1;
-  font-family: 'Oswald', sans-serif;
+  border-bottom: 5px solid #db3eb1;
+  font-family: "Oswald", sans-serif;
 }
 
-a, a:visited {
+a,
+a:visited {
   text-decoration: none;
-  color: #41B6E6;
+  color: #41b6e6;
 }
 
 a:hover {
-  color: #DB3EB1;
+  color: #db3eb1;
 }
 
 .navbar-toggler-icon {
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,102,203, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
-
 }
 
 .navbar-toggler {
-  border-color: #41B6E6;
-} 
+  border-color: #41b6e6;
+}
 
 /* Home Component */
 .home {
@@ -48,25 +48,25 @@ a:hover {
 }
 
 .profilePic {
-  border: 2px solid #41B6E6;
+  border: 2px solid #41b6e6;
 }
 
 .intro {
   color: white;
-  text-shadow: 3px 3px 5px #DB3EB1;
-  font-family: 'Oswald', sans-serif;
+  text-shadow: 3px 3px 5px #db3eb1;
+  font-family: "Oswald", sans-serif;
 }
 
 .btn {
-  font-family: 'Oswald', sans-serif;
+  font-family: "Oswald", sans-serif;
 }
 
 /* Skills Component */
 .Skills {
-  text-shadow: 3px 3px 5px #41B6E6;
+  text-shadow: 3px 3px 5px #41b6e6;
   padding-top: 15px;
   padding-bottom: 25px;
-  font-family: 'Oswald', sans-serif;
+  font-family: "Oswald", sans-serif;
 }
 
 ul {
@@ -102,7 +102,8 @@ li {
 }
 
 /* Position the front and back side */
-.flip-card-front, .flip-card-back {
+.flip-card-front,
+.flip-card-back {
   position: absolute;
   width: 100%;
   height: 100%;
@@ -118,7 +119,7 @@ li {
 
 /* Style the back side */
 .flip-card-back {
-  background-color: #41B6E6;
+  background-color: #41b6e6;
   color: white;
   transform: rotateY(180deg);
 }
@@ -128,7 +129,7 @@ li {
   padding-top: 15px;
   padding-bottom: 25px;
   font-size: 18px;
-  font-family: 'Oswald', sans-serif;
+  font-family: "Oswald", sans-serif;
   background: aliceblue;
 }
 
@@ -136,25 +137,27 @@ li {
   background: aliceblue;
 }
 
-.aboutTitle, h3 {
-  text-shadow: 3px 3px 5px #41B6E6;
+.aboutTitle,
+h3 {
+  text-shadow: 3px 3px 5px #41b6e6;
 }
 
 /* Contact Component */
 .Contact {
   padding-top: 15px;
   padding-bottom: 25px;
-  font-family: 'Oswald', sans-serif;
+  font-family: "Oswald", sans-serif;
 }
 
-.contactTitle, label {
-  text-shadow: 3px 3px 5px #41B6E6;
+.contactTitle,
+label {
+  text-shadow: 3px 3px 5px #41b6e6;
 }
 
 /* Footer Component */
 .footer-tag {
-  font-family: 'Oswald', sans-serif;
-  color: #41B6E6;
+  font-family: "Oswald", sans-serif;
+  color: #41b6e6;
   font-size: 13px;
 }
 
@@ -162,11 +165,11 @@ li {
 .Projects {
   padding-top: 15px;
   padding-bottom: 25px;
-  font-family: 'Oswald', sans-serif;
+  font-family: "Oswald", sans-serif;
 }
 
 .projectTitle {
-  text-shadow: 3px 3px 5px #41B6E6;
+  text-shadow: 3px 3px 5px #41b6e6;
 }
 
 .carousel-control-next-icon {
@@ -174,18 +177,24 @@ li {
 }
 
 .carousel-control-prev-icon {
-  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='teal' width='8' height='8' viewBox='0 0 8 8'%3e%3cpath d='M5.25 0l-4 4 4 4 1.5-1.5L4.25 4l2.5-2.5L5.25 0z'/%3e%3c/svg%3e")
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='teal' width='8' height='8' viewBox='0 0 8 8'%3e%3cpath d='M5.25 0l-4 4 4 4 1.5-1.5L4.25 4l2.5-2.5L5.25 0z'/%3e%3c/svg%3e");
+}
+
+.rounded {
+  width: 192px;
+  height: 192px;
+  border-radius: 50%;
 }
 
 /* media queries */
 @media only screen and (max-width: 760px) {
-   .projectCarousel {
+  .projectCarousel {
     display: none;
   }
 }
 
 @media only screen and (max-width: 1048px) {
-   .profile {
+  .profile {
     display: none;
   }
 }

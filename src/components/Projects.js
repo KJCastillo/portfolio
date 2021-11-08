@@ -67,7 +67,8 @@ export const Projects = () => {
         </div>
         <div className="projectCarousel col-sm pt-4">
           <div
-            id="carouselExampleControls2"
+            id="carouselExampleControls4"
+            //change number to not conflict with other carousels
             className="carousel slide"
             data-ride="carousel"
             data-interval="false"
@@ -103,7 +104,8 @@ export const Projects = () => {
             </div>
             <a
               className="carousel-control-prev"
-              href="#carouselExampleControls2"
+              href="#carouselExampleControls4"
+              //change number to not conflict with other carousels
               role="button"
               data-slide="prev"
             >
@@ -115,7 +117,8 @@ export const Projects = () => {
             </a>
             <a
               className="carousel-control-next"
-              href="#carouselExampleControls2"
+              href="#carouselExampleControls4"
+              //change number to not conflict with other carousels
               role="button"
               data-slide="next"
             >

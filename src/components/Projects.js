@@ -22,6 +22,7 @@ import listLogo from "../img/listLogo.png";
 import RecipeAPI from "../img/RecipeAPI.png";
 import RecipeAPI2 from "../img/RecipeAPI2.png";
 import RecipeAPI3 from "../img/RecipeAPI3.png";
+import rlogo from "../img/rlogo.png";
 
 export const Projects = () => {
   useEffect(() => {
@@ -444,7 +445,7 @@ export const Projects = () => {
               rel="noopener noreferrer"
               href="https://recipe-api-seven.vercel.app/"
             >
-              <img src={mwLogo} alt="miami tech works logo" />
+              <img src={rlogo} className="rlogo" alt="recipeAPI logo" />
             </a>
           </div>
           <div className="card-body">

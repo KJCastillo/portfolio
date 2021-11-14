@@ -19,6 +19,9 @@ import toDoList from "../img/toDoList.png";
 import toDoList2 from "../img/toDoList2.png";
 import toDoList3 from "../img/toDoList3.png";
 import listLogo from "../img/listLogo.png";
+import RecipeAPI from "../img/RecipeAPI.png";
+import RecipeAPI2 from "../img/RecipeAPI2.png";
+import RecipeAPI3 from "../img/RecipeAPI3.png";
 
 export const Projects = () => {
   useEffect(() => {
@@ -30,13 +33,15 @@ export const Projects = () => {
     <div className="Projects container-fluid">
       <div className="text-center projectTitle">
         <h1>Projects</h1>
-        <p>click logo to view project deployed - click github icon to view code</p>
+        <p>
+          click logo to view project deployed - click github icon to view code
+        </p>
       </div>
       {/* start of to do list react */}
       <div className="row pt-2 mb-4">
         <div className="col-sm pt-4">
           <div>
-          {/* data-aos="fade-right" */}
+            {/* data-aos="fade-right" */}
             <a
               target="_blank"
               rel="noopener noreferrer"
@@ -205,9 +210,9 @@ export const Projects = () => {
           </div>
         </div>
         <div className="col-sm text-right pt-4 ">
-        <div data-aos="fade-left">
-        <img src={lmLogo} alt="liberty mall logo" width="300" />
-        </div>
+          <div data-aos="fade-left">
+            <img src={lmLogo} alt="liberty mall logo" width="300" />
+          </div>
           <div className="card-body">
             <p className="card-text">
               An online shop that uses Amazon's API to gather product
@@ -430,6 +435,101 @@ export const Projects = () => {
         </div>
       </div>
       {/* end of moviesAPI */}
+      {/* start of recipeAPI */}
+      <div className="row pt-4 mb-4">
+        <div className="col-sm pt-4">
+          <div data-aos="fade-right">
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://recipe-api-seven.vercel.app/"
+            >
+              <img src={mwLogo} alt="miami tech works logo" />
+            </a>
+          </div>
+          <div className="card-body">
+            <p className="card-text">
+              Recipe API website to search for recipes by ingredients. Able to
+              search for food and beverages. Created on React.js.
+            </p>
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              className="navbar-brand ml-auto"
+              href="https://github.com/KJCastillo/recipeAPI"
+            >
+              <img
+                className="project-icons"
+                alt="github"
+                src="https://img.icons8.com/nolan/64/github.png"
+              />
+            </a>
+          </div>
+        </div>
+        <div className="projectCarousel col-sm pt-4">
+          <div
+            id="carouselExampleControls5"
+            className="carousel slide"
+            data-ride="carousel"
+            data-interval="false"
+          >
+            <div className="carousel-inner">
+              <div className="carousel-item active">
+                <img
+                  src={RecipeAPI}
+                  width="100%"
+                  height="500"
+                  className=""
+                  alt="..."
+                />
+              </div>
+              <div className="carousel-item">
+                <img
+                  src={RecipeAPI2}
+                  width="100%"
+                  height="500"
+                  className=""
+                  alt="..."
+                />
+              </div>
+              <div className="carousel-item">
+                <img
+                  src={RecipeAPI3}
+                  width="100%"
+                  height="500"
+                  className=""
+                  alt="..."
+                />
+              </div>
+            </div>
+            <a
+              className="carousel-control-prev"
+              href="#carouselExampleControls5"
+              role="button"
+              data-slide="prev"
+            >
+              <span
+                className="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span className="sr-only">Previous</span>
+            </a>
+            <a
+              className="carousel-control-next"
+              href="#carouselExampleControls5"
+              role="button"
+              data-slide="next"
+            >
+              <span
+                className="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span className="sr-only">Next</span>
+            </a>
+          </div>
+        </div>
+      </div>
+      {/* end of recipeAPI */}
     </div>
   );
 };

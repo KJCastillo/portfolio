@@ -21,7 +21,8 @@ class Contact extends Component {
     e.preventDefault();
     emailjs
       .sendForm(
-        "gmail",
+        "service_du2o82k",
+        //service id
         "emailjs-template",
         ".contact_form_class",
         "user_dM7tFzM7g30yVg1XTAiM5"

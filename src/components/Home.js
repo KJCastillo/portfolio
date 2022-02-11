@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import "../App.css";
-import profile from "../img/profile.png";
+// import profile from "../img/profile.png";
 import Skills from "./Skills";
 import About from "./About";
 import Contact from "./Contact";
@@ -11,14 +11,15 @@ class Home extends Component {
       <div className="jumbotron jumbotron-fluid p-0">
         <div className="home d-flex container-fluid">
           <div className="row text-center justify-content-center mx-auto align-self-center">
-            <div className="profile col-sm-4">
+            {/* <div className="profile col-sm-4">
               <img
                 className="profilePic ml-5 mt-1 rounded-circle"
                 height="300"
                 src={profile}
                 alt="profile"
               />
-            </div>
+            </div> */}
+            {/* profile picture cropped out */}
             <div className="col-sm ">
               <h1 className="intro pt-5">
                 Hi! I&apos;m Kevin Castillo, pleasure to meet you!

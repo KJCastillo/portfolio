@@ -27,8 +27,7 @@ export const About = () => {
                     excellent software that improves the lives of those around
                     me. I enjoy turning complex problems into simple, beautiful
                     and intuitive designs. When I&apos;m not coding, you&apos;ll
-                    find me on the mats scrambling out of submissions at
-                    Brazilian Jiu Jitsu practice or planning my next adventure!
+                    find me on the mats scrambling out of submissions at Jiu Jitsu practice or planning my next adventure!
                   </p>
                   <img
                     className="card-img-top icelandImg"

@@ -15,6 +15,10 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Oswald&display=swap");
 
+.layout {
+  background: aliceblue;
+}
+
 /* Navbar */
 .navbar {
   background: black;
@@ -66,6 +70,7 @@ a:hover {
   text-shadow: 3px 3px 5px #41b6e6;
   padding-top: 15px;
   padding-bottom: 25px;
+  background: aliceblue;
   font-family: "Oswald", sans-serif;
 }
 
@@ -146,6 +151,7 @@ h3 {
 .Contact {
   padding-top: 15px;
   padding-bottom: 25px;
+  background: aliceblue;
   font-family: "Oswald", sans-serif;
 }
 

@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import "../App.css";
 import Skills from "./Skills";
 import About from "./About";
-import Contact from "./Contact";
+// import Contact from "./Contact";
 
 class Home extends Component {
   render() {
@@ -39,7 +39,7 @@ class Home extends Component {
         </div>
         <Skills />
         <About />
-        <Contact />
+        {/* <Contact /> */}
       </div>
     );
   }

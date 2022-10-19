@@ -32,9 +32,9 @@ class Navbar extends Component {
             <Link className="nav-item nav-link" to="/#about">
               About
             </Link>
-            <Link className="nav-item nav-link" to="/#contact">
+            {/* <Link className="nav-item nav-link" to="/#contact">
               Contact
-            </Link>
+            </Link> */}
             <a
               className="nav-item nav-link ml-auto"
               target="_blank"

@@ -33,7 +33,7 @@ class Navbar extends Component {
               About
             </Link>
             {/* <Link className="nav-item nav-link" to="/#contact">
-              Contact
+              Contact1
             </Link> */}
             <a
               className="nav-item nav-link ml-auto"

@@ -1,8 +1,10 @@
 import React, { Component } from "react";
 import "../App.css";
-import frontendLogo from "../img/frontendLogo.png";
-import backendLogo from "../img/backendLogo.png";
-import otherLogo from "../img/otherLogo.png";
+import '../css/Skills.css'
+import profile from "../img/profile.png";
+//import frontendLogo from "../img/frontendLogo.png";
+// import backendLogo from "../img/backendLogo.png";
+// import otherLogo from "../img/otherLogo.png";
 
 class Skills extends Component {
   render() {
@@ -11,7 +13,42 @@ class Skills extends Component {
         <div className="text-center">
           <h1>Skills</h1>
         </div>
-        <div className="card-deck justify-content-center pt-4">
+        <div className="skills-left">
+          <img src={profile} alt="profile-image" width="400px" height="460px" />
+        </div>
+        <div className="skills-right">
+          <div className="skills-section">
+            <ul className="skills-list">
+              <li className="skill">HTML</li>
+              <li className="skill">CSS</li>
+              <li className="skill">Bootstrap</li>
+              <li className="skill">JavaScript</li>
+              <li className="skill">jQuery</li>
+              <li className="skill">React</li>
+              <li className="skill">Python</li>
+              <li className="skill">Node.js</li>
+              <li className="skill">NPM</li>
+              <li className="skill">REST API</li>
+              <li className="skill">Object Oriented Programming</li>
+              <li className="skill">Databases</li>
+              <li className="skill">Firebase</li>
+              <li className="skill">Adobe Photoshop</li>
+              <li className="skill">Github</li>
+            </ul>
+          </div>
+          <div className="small-bio">
+            <h1>I love building stuff</h1>
+            <p>
+              Whether it was Legos or airplane models, I always loved using my
+              brain and hands to create something from scratch. And after coming
+              across coding, I was all in! Being able to problem solve and
+              create responsive and dynamic web sites has become so much more
+              than a career path, but a passion.
+            </p>
+            <button className="skill-button">Kep reading my bio</button>
+          </div>
+        </div>
+        {/* <div className="card-deck justify-content-center pt-4">
         <div className="frontendSkills">
           <div className="card border-0 flip-card">
             <div className="flip-card-inner">
@@ -183,7 +220,7 @@ class Skills extends Component {
             </div>
           </div>
         </div>
-        </div>
+        </div> */}
       </div>
     );
   }

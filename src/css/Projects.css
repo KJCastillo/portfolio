@@ -1,12 +1,16 @@
 .Projects {
-  padding-top: 15px;
-  padding-bottom: 25px;
-  font-family: "Oswald", sans-serif;
+    padding-top: 15px;
+    padding-right: 50px;
+    padding-left: 50px;
+    padding-bottom: 25px;
+    background: aliceblue;
+    font-family: "Oswald", sans-serif;
 }
 
-.projectTitle {
-  text-shadow: 3px 3px 5px #41b6e6;
+.title {
+  text-shadow: 3px 3px 5px #db3eb1;
 }
+
 
 /* .carousel-control-next-icon {
   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='teal' width='8' height='8' viewBox='0 0 8 8'%3e%3cpath d='M2.75 0l-1.5 1.5L3.75 4l-2.5 2.5L2.75 8l4-4-4-4z'/%3e%3c/svg%3e");
@@ -29,26 +33,26 @@
 } */
 
 .skill {
-    color: white;
-    background-color: black;
-    padding: 5px;
-    margin: 5px;
-  }
-  
-  .skills-list {
-    padding: 0;
-    margin: 0;
-    list-style: none;
-    -ms-box-orient: horizontal;
-    display: -webkit-box;
-    display: -moz-box;
-    display: -ms-flexbox;
-    display: -moz-flex;
-    display: -webkit-flex;
-    display: flex;
-  }
-  
-  .wrap {
-    -webkit-flex-wrap: wrap;
-    flex-wrap: wrap;
-  }
+  color: white;
+  background-color: black;
+  padding: 5px;
+  margin: 5px;
+}
+
+.skills-list {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  -ms-box-orient: horizontal;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -moz-flex;
+  display: -webkit-flex;
+  display: flex;
+}
+
+.wrap {
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
+}

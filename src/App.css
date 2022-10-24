@@ -44,6 +44,10 @@ a:hover {
   border-color: #41b6e6;
 }
 
+.component-title {
+  text-shadow: 3px 3px 5px #41b6e6;
+}
+
 /* Home Component */
 .home {
   background-image: url(./img/natureCopy.png);
@@ -82,7 +86,6 @@ a:hover {
 h3 {
   text-shadow: 3px 3px 5px #41b6e6;
 }
-
 /* Contact Component */
 .Contact {
   padding-top: 15px;

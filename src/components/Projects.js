@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import "../App.css";
-import "../css/Projects.css"
+import "../css/Projects.css";
 import Aos from "aos";
 import "aos/dist/aos.css";
 import MiamiTechHome from "../img/MiamiTechHome.png";
@@ -24,6 +24,7 @@ import RecipeAPI from "../img/RecipeAPI.png";
 import RecipeAPI2 from "../img/RecipeAPI2.png";
 import RecipeAPI3 from "../img/RecipeAPI3.png";
 import rlogo from "../img/rlogo.png";
+import myMoney from "../img/myMoney.png";
 
 export const Projects = () => {
   useEffect(() => {
@@ -32,25 +33,69 @@ export const Projects = () => {
     Aos.init({ duration: 1000 });
   }, []);
   return (
-    <div className="container-fluid">
-      <div className="text-center projectTitle">
+    <div className="Projects container-fluid">
+      <div className="text-center pb-4 component-title">
         <h1>Projects</h1>
-        <p>
-          click logo to view project deployed - click github icon to view code
-        </p>
       </div>
-      <div className="row">
-        <div className="col">
-          <h2 className="project-title">myMoney</h2>
-          <ul className="skills-list wrap">
-            <li className="skill">HTML</li>
-            <li className="skill">CSS</li>
-            <li className="skill">JavaScript</li>
-            <li className="skill">React</li>
-            <li className="skill">NPM</li>
-            <li className="skill">Node.js</li>
-            <li className="skill">Firebase</li>
-          </ul>
+
+      <div className="flex-container">
+        <div className="row justify-content-center">
+          <div className="col-sm-10">
+            <div className="row">
+              <div className="col">
+                <h2 className="title">myMoney</h2>
+                <div className="skills-section">
+                  <ul className="skills-list wrap pb-3">
+                    <li className="skill">HTML</li>
+                    <li className="skill">CSS</li>
+                    <li className="skill">JavaScript</li>
+                    <li className="skill">React</li>
+                    <li className="skill">NPM</li>
+                    <li className="skill">Node.js</li>
+                    <li className="skill">Firebase</li>
+                  </ul>
+                </div>
+                <div className="project-bio">
+                  <p>
+                    Financial tracker website to easily manage income spending.
+                    Created on React.js with Firebase Authentication. Able to
+                    create and delete finances by using useState and useEvent
+                    hooks. Custom React hooks created to interact with Firebase.
+                  </p>
+                  <div className="container pt-3">
+                    <div className="row">
+                      <div className="github-logo col-xs-6">
+                        <a
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="navbar-brand ml-auto"
+                          href="https://github.com/KJCastillo/myMoney"
+                        >
+                          <img
+                            className="project-icons"
+                            alt="github"
+                            src="https://img.icons8.com/nolan/64/github.png"
+                          />
+                        </a>
+                      </div>
+                      <div className="pt-4 col-xs-6">
+                        <button className="demo-btn">live demo</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="col">
+                <img
+                  src={myMoney}
+                  className="rounded"
+                  alt="myMoney"
+                  width="500px"
+                  height="250px"
+                />
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>

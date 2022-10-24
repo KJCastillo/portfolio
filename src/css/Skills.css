@@ -1,4 +1,42 @@
+.Skills {
+  padding-top: 15px;
+  padding-right: 50px;
+  padding-left: 50px;
+  padding-bottom: 25px;
+  background: aliceblue;
+  font-family: "Oswald", sans-serif;
+}
+
+.title {
+  text-shadow: 3px 3px 5px #41b6e6;
+}
+
 .skill {
-    color: white;
-    background-color: black;
+  color: white;
+  background-color: black;
+  padding: 5px;
+  margin: 5px;
+}
+
+.skills-list {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  -ms-box-orient: horizontal;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -moz-flex;
+  display: -webkit-flex;
+  display: flex;
+}
+
+.wrap {
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+.img-div {
+  display: flex;
+  justify-content: center;
 }

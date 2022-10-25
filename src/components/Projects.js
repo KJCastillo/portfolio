@@ -3,27 +3,12 @@ import "../App.css";
 import "../css/Projects.css";
 import Aos from "aos";
 import "aos/dist/aos.css";
-import MiamiTechHome from "../img/MiamiTechHome.png";
-import MiamiTech from "../img/MiamiTech.png";
-import MiamiTechJobs from "../img/MiamiTechJobs.png";
-import libertyMallSearch from "../img/libertyMallSearch.png";
-import libertyMallRegister from "../img/libertyMallRegister.png";
-import cart from "../img/cart.png";
-import loginModal from "../img/loginModal.png";
-import lmLogo from "../img/lmLogo.png";
-import mwLogo from "../img/mwLogo.png";
 import moviesAPI from "../img/moviesAPI.png";
 import movies2API from "../img/movies2API.png";
 import searchAPI from "../img/searchAPI.png";
-import moviesLogo from "../img/moviesLogo.png";
-import toDoList from "../img/toDoList.png";
-import toDoList2 from "../img/toDoList2.png";
 import toDoList3 from "../img/toDoList3.png";
-import listLogo from "../img/listLogo.png";
-import RecipeAPI from "../img/RecipeAPI.png";
-import RecipeAPI2 from "../img/RecipeAPI2.png";
+import fossilfuel from "../img/fossilfuel.png";
 import RecipeAPI3 from "../img/RecipeAPI3.png";
-import rlogo from "../img/rlogo.png";
 import myMoney from "../img/myMoney.png";
 
 export const Projects = () => {
@@ -37,8 +22,8 @@ export const Projects = () => {
       <div className="text-center pb-4 component-title">
         <h1>Projects</h1>
       </div>
-
-      <div className="flex-container">
+      {/* myMoney project */}
+      <div className="flex-container pt-5 pb-5">
         <div className="row justify-content-center">
           <div className="col-sm-10">
             <div className="row">
@@ -48,11 +33,13 @@ export const Projects = () => {
                   <ul className="skills-list wrap pb-3">
                     <li className="skill">HTML</li>
                     <li className="skill">CSS</li>
+                    <li className="skill">Bootstrap</li>
                     <li className="skill">JavaScript</li>
                     <li className="skill">React</li>
                     <li className="skill">NPM</li>
                     <li className="skill">Node.js</li>
                     <li className="skill">Firebase</li>
+                    <li className="skill">Vercel</li>
                   </ul>
                 </div>
                 <div className="project-bio">
@@ -79,7 +66,10 @@ export const Projects = () => {
                         </a>
                       </div>
                       <div className="pt-4 col-xs-6">
+                        <a href="https://my-money-pi.vercel.app/login" target="_blank">
                         <button className="demo-btn">live demo</button>
+                        </a>
+                        
                       </div>
                     </div>
                   </div>
@@ -88,6 +78,192 @@ export const Projects = () => {
               <div className="col">
                 <img
                   src={myMoney}
+                  className="rounded"
+                  alt="myMoney"
+                  width="500px"
+                  height="250px"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      {/* fossil fuel project */}
+      <div className="flex-container pt-5 pb-5">
+        <div className="row justify-content-center">
+          <div className="col-sm-10">
+            <div className="row">
+              <div className="col">
+                <h2 className="title">Fossil Fuel Coffee Company</h2>
+                <div className="skills-section">
+                  <ul className="skills-list wrap pb-3">
+                    <li className="skill">HTML</li>
+                    <li className="skill">CSS</li>
+                    <li className="skill">Bootstrap</li>
+                    <li className="skill">JavaScript</li>
+                    <li className="skill">API</li>
+                    <li className="skill">Square</li>
+                  </ul>
+                </div>
+                <div className="project-bio">
+                  <p>
+                    Coffee company website created for a new business in
+                    Wyoming. Website styled using CSS to make responsive in
+                    desktop and mobile devices. Website connected to Square for
+                    commerce necessities using JavaScript to properly be able to
+                    order, edit, and delete coffee purchases.
+                  </p>
+                  <div className="container pt-3">
+                    <div className="row">
+                      <div className="github-logo col-xs-6">
+                        <a
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="navbar-brand ml-auto"
+                          href="https://github.com/KJCastillo/"
+                        >
+                          <img
+                            className="project-icons"
+                            alt="github"
+                            src="https://img.icons8.com/nolan/64/github.png"
+                          />
+                        </a>
+                      </div>
+                      <div className="pt-4 col-xs-6">
+                        <button className="demo-btn">live demo</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="col">
+                <img
+                  src={fossilfuel}
+                  className="rounded"
+                  alt="myMoney"
+                  width="500px"
+                  height="250px"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      {/* recipe api project */}
+      <div className="flex-container">
+        <div className="row justify-content-center pt-5 pb-5">
+          <div className="col-sm-10">
+            <div className="row">
+              <div className="col">
+                <h2 className="title">Recipe API</h2>
+                <div className="skills-section">
+                  <ul className="skills-list wrap pb-3">
+                    <li className="skill">HTML</li>
+                    <li className="skill">CSS</li>
+                    <li className="skill">Bootstrap</li>
+                    <li className="skill">JavaScript</li>
+                    <li className="skill">React</li>
+                    <li className="skill">API</li>
+                    <li className="skill">NPM</li>
+                    <li className="skill">Node.js</li>
+                    <li className="skill">Vercel</li>
+                  </ul>
+                </div>
+                <div className="project-bio">
+                  <p>
+                    Developed on React.js, Recipe API website is able to search
+                    for recipes by ingredients by using useState to track state
+                    in component and useEffect to update recipe after initial
+                    render. HTML and CSS Bootstrap used to style website.
+                  </p>
+                  <div className="container pt-3">
+                    <div className="row">
+                      <div className="github-logo col-xs-6">
+                        <a
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="navbar-brand ml-auto"
+                          href="https://github.com/KJCastillo/recipeapi"
+                        >
+                          <img
+                            className="project-icons"
+                            alt="github"
+                            src="https://img.icons8.com/nolan/64/github.png"
+                          />
+                        </a>
+                      </div>
+                      <div className="pt-4 col-xs-6">
+                        <button className="demo-btn">live demo</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="col">
+                <img
+                  src={RecipeAPI3}
+                  className="rounded"
+                  alt="myMoney"
+                  width="500px"
+                  height="250px"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      {/* to do list react project */}
+      <div className="flex-container">
+        <div className="row justify-content-center pt-5 pb-5">
+          <div className="col-sm-10">
+            <div className="row">
+              <div className="col">
+                <h2 className="title">React To Do List</h2>
+                <div className="skills-section">
+                  <ul className="skills-list wrap pb-3">
+                    <li className="skill">HTML</li>
+                    <li className="skill">CSS</li>
+                    <li className="skill">JavaScript</li>
+                    <li className="skill">React</li>
+                    <li className="skill">NPM</li>
+                    <li className="skill">Node.js</li>
+                    <li className="skill">Vercel</li>
+                  </ul>
+                </div>
+                <div className="project-bio">
+                  <p>
+                    To do list website made to help productivity in completing
+                    tasks. Created on React.js. Able to create, mark complete
+                    and delete tasks by using useState and passing props to
+                    corresponding components. Login and register feature to be
+                    created with firebase.
+                  </p>
+                  <div className="container pt-3">
+                    <div className="row">
+                      <div className="github-logo col-xs-6">
+                        <a
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="navbar-brand ml-auto"
+                          href="https://github.com/KJCastillo/toDoListReact"
+                        >
+                          <img
+                            className="project-icons"
+                            alt="github"
+                            src="https://img.icons8.com/nolan/64/github.png"
+                          />
+                        </a>
+                      </div>
+                      <div className="pt-4 col-xs-6">
+                        <button className="demo-btn">live demo</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="col">
+                <img
+                  src={toDoList3}
                   className="rounded"
                   alt="myMoney"
                   width="500px"

@@ -1,0 +1,17 @@
+.About {
+  padding-top: 15px;
+  padding-right: 50px;
+  padding-left: 50px;
+  padding-bottom: 25px;
+  background: aliceblue;
+  font-family: "Oswald", sans-serif;
+}
+
+.cardAbout {
+  background: aliceblue;
+}
+
+.aboutTitle,
+h3 {
+  text-shadow: 3px 3px 5px #41b6e6;
+}

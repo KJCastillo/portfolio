@@ -1,12 +1,13 @@
 import React from "react";
 import "../App.css";
+import "../css/About.css";
 import bjj from "../img/bjj.png";
 import iceland from "../img/iceland.png";
 
 export const About = () => {
   return (
     <div className="About container-fluid">
-      <div className="aboutTitle text-center">
+      <div className="aboutTitle text-center pb-4">
         <h1>About</h1>
       </div>
 
@@ -22,7 +23,8 @@ export const About = () => {
                     excellent software that improves the lives of those around
                     me. I enjoy turning complex problems into simple, beautiful
                     and intuitive designs. When I&apos;m not coding, you&apos;ll
-                    find me on the mats scrambling out of submissions at Jiu Jitsu practice or planning my next adventure!
+                    find me on the mats scrambling out of submissions at Jiu
+                    Jitsu practice or planning my next adventure!
                   </p>
                   <img
                     className="card-img-top icelandImg"

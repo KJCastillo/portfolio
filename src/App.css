@@ -69,23 +69,6 @@ a:hover {
   font-family: "Oswald", sans-serif;
 }
 
-/* About Component */
-.About {
-  padding-top: 15px;
-  padding-bottom: 25px;
-  font-size: 18px;
-  font-family: "Oswald", sans-serif;
-  background: aliceblue;
-}
-
-.cardAbout {
-  background: aliceblue;
-}
-
-.aboutTitle,
-h3 {
-  text-shadow: 3px 3px 5px #41b6e6;
-}
 /* Contact Component */
 .Contact {
   padding-top: 15px;

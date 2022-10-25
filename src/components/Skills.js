@@ -7,8 +7,7 @@ import "../css/Skills.css";
 import profile from "../img/profile.png";
 
 export const Skills = () => {
-  let history = useHistory();
-
+  const history = useHistory();
   const handleClick = () => {
     history.push("/about");
   };

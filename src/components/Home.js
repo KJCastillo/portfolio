@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import "../App.css";
+import Pdf from "../pdf/Resume.pdf";
 import Skills from "./Skills";
 import Projects from "./Projects";
 // import Contact from "./Contact";
@@ -18,13 +19,60 @@ class Home extends Component {
                 I&apos;m a Full Stack Developer with a passion for coding &amp;
                 design!
               </h2>
-              {/* <button
-                type="button"
-                className="btn btn-light btn-sm mt-3"
-                onClick={() => this.props.history.push("/about")}
-              >
-                Check out my projects!
-              </button> */}
+              <div className="pt-3">
+                <a
+                  className="pr-2"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href={Pdf}
+                >
+                  <img
+                    className="resume-icon"
+                    height="40"
+                    alt="resume"
+                    src="https://img.icons8.com/nolan/64/open-resume.png"
+                  />
+                </a>
+                <a
+                  className="pr-2"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="https://www.linkedin.com/in/kevinjcastillo/"
+                >
+                  <img
+                    className="linkedin-icon"
+                    height="40"
+                    alt="linkedin"
+                    src="https://img.icons8.com/nolan/64/linkedin.png"
+                  />
+                </a>
+                <a
+                  className="pr-2"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="https://www.github.com/kjcastillo/"
+                >
+                  <img
+                    className="github-icon"
+                    height="40"
+                    alt="linkedin"
+                    src="https://img.icons8.com/nolan/64/github.png"
+                  />
+                </a>
+                <a
+                  className="pr-2"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="https://www.github.com/kjcastillo/"
+                >
+                  <img
+                    className="email-icon"
+                    height="40"
+                    alt="linkedin"
+                    src="https://img.icons8.com/external-icongeek26-outline-gradient-icongeek26/64/000000/external-mail-politic-icongeek26-outline-gradient-icongeek26.png"
+                  />
+                </a>
+              </div>
             </div>
           </div>
         </div>

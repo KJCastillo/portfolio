@@ -1,21 +1,16 @@
-import React, { useEffect } from "react";
+import React from "react";
 import "../App.css";
-import Aos from "aos";
-import "aos/dist/aos.css";
 import bjj from "../img/bjj.png";
 import iceland from "../img/iceland.png";
 
 export const About = () => {
-  useEffect(() => {
-    Aos.init({ duration: 1000 });
-  }, []);
   return (
-    <div className="About container-fluid" id="about">
+    <div className="About container-fluid">
       <div className="aboutTitle text-center">
         <h1>About</h1>
       </div>
 
-      <div data-aos="fade-up">
+      <div>
         <div className="row justify-content-center">
           <div className="col-sm-10 pt-4">
             <div className="card-group">

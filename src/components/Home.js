@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import "../App.css";
 import Skills from "./Skills";
-import About from "./About";
+import Projects from "./Projects";
 // import Contact from "./Contact";
 
 class Home extends Component {
@@ -10,15 +10,6 @@ class Home extends Component {
       <div className="jumbotron jumbotron-fluid p-0">
         <div className="home d-flex container-fluid">
           <div className="row text-center justify-content-center mx-auto align-self-center">
-            {/* <div className="profile col-sm-4">
-              <img
-                className="profilePic ml-5 mt-1 rounded-circle"
-                height="300"
-                src={profile}
-                alt="profile"
-              />
-            </div> */}
-            {/* profile picture cropped out */}
             <div className="col-sm ">
               <h1 className="intro pt-5">
                 Hi! I&apos;m Kevin Castillo, pleasure to meet you!
@@ -27,18 +18,18 @@ class Home extends Component {
                 I&apos;m a Full Stack Developer with a passion for coding &amp;
                 design!
               </h2>
-              <button
+              {/* <button
                 type="button"
                 className="btn btn-light btn-sm mt-3"
-                onClick={() => this.props.history.push("/projects")}
+                onClick={() => this.props.history.push("/about")}
               >
                 Check out my projects!
-              </button>
+              </button> */}
             </div>
           </div>
         </div>
         <Skills />
-        <About />
+        <Projects />
         {/* <Contact /> */}
       </div>
     );

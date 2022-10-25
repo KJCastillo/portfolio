@@ -3,8 +3,6 @@ import "../App.css";
 import "../css/Projects.css";
 import Aos from "aos";
 import "aos/dist/aos.css";
-import moviesAPI from "../img/moviesAPI.png";
-import movies2API from "../img/movies2API.png";
 import toDoList3 from "../img/toDoList3.png";
 import fossilfuel from "../img/fossilfuel.png";
 import RecipeAPI3 from "../img/RecipeAPI3.png";
@@ -17,7 +15,7 @@ export const Projects = () => {
     Aos.init({ duration: 1000 });
   }, []);
   return (
-    <div className="Projects container-fluid">
+    <div className="Projects container-fluid" id="projects">
       <div className="text-center pb-4 component-title">
         <h1>Projects</h1>
       </div>
@@ -68,6 +66,7 @@ export const Projects = () => {
                         <a
                           href="https://my-money-pi.vercel.app/login"
                           target="_blank"
+                          rel="noopener noreferrer"
                         >
                           <button className="btn-dark rounded-pill">
                             live demo
@@ -133,7 +132,11 @@ export const Projects = () => {
                         </a>
                       </div>
                       <div className="pt-4 col-xs-6">
-                        <a href="https://www.fossilfuelwy.com/" target="_blank">
+                        <a
+                          href="https://www.fossilfuelwy.com/"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                        >
                           <button className="btn-dark rounded-pill">
                             live demo
                           </button>
@@ -203,6 +206,7 @@ export const Projects = () => {
                         <a
                           href="https://recipe-api-seven.vercel.app/"
                           target="_blank"
+                          rel="noopener noreferrer"
                         >
                           <button className="btn-dark rounded-pill">
                             live demo
@@ -272,6 +276,7 @@ export const Projects = () => {
                         <a
                           href="https://to-do-list-kjcastillo.vercel.app/"
                           target="_blank"
+                          rel="noopener noreferrer"
                         >
                           <button className="btn-dark rounded-pill">
                             live demo

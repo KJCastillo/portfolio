@@ -63,7 +63,7 @@ class Home extends Component {
                   className="pr-2"
                   target="_blank"
                   rel="noopener noreferrer"
-                  href="https://www.github.com/kjcastillo/"
+                  href="mailto:kevincastillo318@gmail.com?subject=Hello! Let's connect!"
                 >
                   <img
                     className="email-icon"

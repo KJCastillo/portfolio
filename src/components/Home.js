@@ -11,7 +11,7 @@ class Home extends Component {
     return (
       <div className="jumbotron jumbotron-fluid p-0 context">
         <div className="home d-flex container-fluid">
-          <div className="row text-center justify-content-center mx-auto align-self-center">
+          <div className="row text-left pl-5 justify-content-center align-self-center">
             <div className="col-sm ">
               <h1 className="intro pt-5">
                 Hi! I&apos;m Kevin Castillo, pleasure to meet you!

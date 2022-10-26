@@ -25,15 +25,12 @@ class Navbar extends Component {
             <Link className="nav-item nav-link" to="/#skills">
               Skills
             </Link>
-            <Link className="nav-item nav-link" to="#projects">
+            <Link className="nav-item nav-link" to="/#projects">
               Projects
             </Link>
             <Link className="nav-item nav-link" to="/about">
               About
             </Link>
-            {/* <Link className="nav-item nav-link" to="/#contact">
-              Contact1
-            </Link> */}
           </div>
         </nav>
       </div>

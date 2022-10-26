@@ -1,121 +1,78 @@
-import React, { Component } from "react";
+import React, { useEffect } from "react";
 import "../App.css";
-import emailjs from "emailjs-com";
+import "../css/Contact.css";
+import Aos from "aos";
+import "aos/dist/aos.css";
+import Pdf from "../pdf/Resume.pdf";
 
-class Contact extends Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      name: "",
-      email: "",
-      subject: "",
-      message: "",
-    };
-    this.handleChange = this.handleChange.bind(this);
-    this.handleSubmit = this.handleSubmit.bind(this);
-  }
-  handleChange = (e) => {
-    this.setState({ [e.target.name]: e.target.value });
-  };
-  handleSubmit = (e) => {
-    e.preventDefault();
-    emailjs
-      .sendForm(
-        "service_du2o82k",
-        //service id
-        "emailjs-template",
-        ".contact_form_class",
-        "user_dM7tFzM7g30yVg1XTAiM5"
-      )
-      .then()
-      .catch();
-    this.setState({
-      name: "",
-      email: "",
-      subject: "",
-      message: "",
-    });
-    e.target.reset();
-  };
-
-  render() {
-    return (
-      <div className="Contact container-fluid" id="contact">
-        <div className="text-center contactTitle">
-          <h1>Contact</h1>
+export default function Contact() {
+  useEffect(() => {
+    Aos.init({ duration: 1000 });
+  }, []);
+  return (
+    <div className="Contact container-fluid d-flex justify-content-center ">
+      <div
+        className="contact-pill pt-4"
+        data-aos="fade-up"
+      >
+        <div className="connect">
+          <h3 className="connect-title text-center">Let's connect!</h3>
         </div>
-        <form
-          onSubmit={this.handleSubmit.bind(this)}
-          className="contact_form_class"
-        >
-          <div className="row justify-content-center">
-            <div className="col-sm-6">
-              <div className="form-group">
-                <label className="form-label" htmlFor="exampleInputEmail1">
-                  Full Name
-                </label>
-                <input
-                  type="text"
-                  name="name"
-                  className="form-control"
-                  value={this.state.name}
-                  aria-describedby="Name"
-                  placeholder="Full Name"
-                  onChange={this.handleChange.bind(this)}
-                />
-              </div>
-              <div className="form-group">
-                <label className="form-label" htmlFor="exampleInputEmail1">
-                  Email address
-                </label>
-                <input
-                  type="email"
-                  name="email"
-                  className="form-control"
-                  value={this.state.email}
-                  aria-describedby="emailHelp"
-                  placeholder="Enter email"
-                  onChange={this.handleChange.bind(this)}
-                />
-              </div>
-              <div className="form-group">
-                <label className="form-label" htmlFor="exampleInputSubject1">
-                  Subject
-                </label>
-                <input
-                  type="text"
-                  name="subject"
-                  className="form-control"
-                  value={this.state.subject}
-                  aria-describedby="subjectHelp"
-                  placeholder="Subject"
-                  onChange={this.handleChange.bind(this)}
-                />
-              </div>
-              <div className="form-group">
-                <label
-                  className="form-label"
-                  htmlFor="exampleFormControlTextarea1"
-                >
-                  Message
-                </label>
-                <textarea
-                  name="message"
-                  className="form-control"
-                  value={this.state.message}
-                  rows="3"
-                  onChange={this.handleChange.bind(this)}
-                ></textarea>
-              </div>
-              <button type="submit" className="btn btn-primary">
-                Submit
-              </button>
-            </div>
-          </div>
-        </form>
+        <div className="pt-3">
+          <a
+            className="pr-2"
+            target="_blank"
+            rel="noopener noreferrer"
+            href={Pdf}
+          >
+            <img
+              className="resume-icon"
+              height="40"
+              alt="resume"
+              src="https://img.icons8.com/nolan/64/open-resume.png"
+            />
+          </a>
+          <a
+            className="pr-2"
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://www.linkedin.com/in/kevinjcastillo/"
+          >
+            <img
+              className="linkedin-icon"
+              height="40"
+              alt="linkedin"
+              src="https://img.icons8.com/nolan/64/linkedin.png"
+            />
+          </a>
+          <a
+            className="pr-2"
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://www.github.com/kjcastillo/"
+          >
+            <img
+              className="github-icon"
+              height="40"
+              alt="linkedin"
+              src="https://img.icons8.com/nolan/64/github.png"
+            />
+          </a>
+          <a
+            className="pr-2"
+            target="_blank"
+            rel="noopener noreferrer"
+            href="mailto:kevincastillo318@gmail.com?subject=Hello! Let's connect!"
+          >
+            <img
+              className="email-icon"
+              height="40"
+              alt="linkedin"
+              src="https://img.icons8.com/external-icongeek26-outline-gradient-icongeek26/64/000000/external-mail-politic-icongeek26-outline-gradient-icongeek26.png"
+            />
+          </a>
+        </div>
       </div>
-    );
-  }
+    </div>
+  );
 }
-
-export default Contact;

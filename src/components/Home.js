@@ -4,7 +4,6 @@ import "../css/Home.css";
 import Pdf from "../pdf/Resume.pdf";
 import Skills from "./Skills";
 import Projects from "./Projects";
-// import Contact from "./Contact";
 
 class Home extends Component {
   render() {
@@ -76,10 +75,8 @@ class Home extends Component {
             </div>
           </div>
         </div>
-        {/* css */}
         <Skills />
         <Projects />
-        {/* <Contact /> */}
       </div>
     );
   }

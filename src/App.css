@@ -48,19 +48,6 @@ a:hover {
   text-shadow: 3px 3px 5px #41b6e6;
 }
 
-/* Contact Component */
-.Contact {
-  padding-top: 15px;
-  padding-bottom: 25px;
-  background: aliceblue;
-  font-family: "Oswald", sans-serif;
-}
-
-.contactTitle,
-label {
-  text-shadow: 3px 3px 5px #41b6e6;
-}
-
 /* Footer Component */
 .footer-tag {
   font-family: "Oswald", sans-serif;

@@ -1,4 +1,5 @@
 import React, { useEffect } from "react";
+import Contact from './Contact'
 import "../App.css";
 import "../css/About.css";
 import Aos from "aos";
@@ -15,16 +16,17 @@ export const About = () => {
       <div className="aboutTitle text-center pb-4">
         <h1>About</h1>
       </div>
-
-      <div>
         <div className="row justify-content-center">
-          <div className="col-sm-10 pt-4">
+          <div className="col-sm-10 pt-3">
             <div className="card-group">
-              <div className="card cardAbout border-0 " data-aos="zoom-out-right">
+              <div
+                className="card cardAbout border-0 "
+                data-aos="zoom-out-right"
+              >
                 <div className="card-body">
                   <h3 className="card-title">A little more about me!</h3>
                   <p className="card-text">
-                    I&apos;m a Full Stack Developer with a passion for building
+                    I&apos;m a Web Developer with a passion for building
                     excellent software that improves the lives of those around
                     me. I enjoy turning complex problems into simple, beautiful
                     and intuitive designs. When I&apos;m not coding, you&apos;ll
@@ -40,7 +42,6 @@ export const About = () => {
                   />
                 </div>
               </div>
-
               <div className="card cardAbout border-0" data-aos="zoom-out-left">
                 <img
                   className="card-img-top bjjImg"
@@ -72,8 +73,8 @@ export const About = () => {
             </div>
           </div>
         </div>
+        <Contact />
       </div>
-    </div>
   );
 };
 

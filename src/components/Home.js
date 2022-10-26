@@ -13,12 +13,11 @@ class Home extends Component {
         <div className="home d-flex container-fluid">
           <div className="row text-left pl-5 justify-content-center align-self-center">
             <div className="col-sm ">
-              <h1 className="intro pt-5">
-                Hi! I&apos;m Kevin Castillo, pleasure to meet you!
+              <h1 className="intro">
+                Hi! I&apos;m Kevin Castillo | Web Developer
               </h1>
               <h2 className="intro pt-2">
-                I&apos;m a Full Stack Developer with a passion for coding &amp;
-                design!
+                Explorer 🗺 Creator 👨🏻‍💻 Lifelong Learner 🎓 Jiu Jitsu Enthusiast 🥋
               </h2>
               <div className="pt-3">
                 <a

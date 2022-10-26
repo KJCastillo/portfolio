@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import { HashLink as Link } from "react-router-hash-link";
-import Pdf from "../pdf/Resume.pdf";
 import "../App.css";
 
 class Navbar extends Component {
@@ -35,32 +34,6 @@ class Navbar extends Component {
             {/* <Link className="nav-item nav-link" to="/#contact">
               Contact1
             </Link> */}
-            <a
-              className="nav-item nav-link ml-auto"
-              target="_blank"
-              rel="noopener noreferrer"
-              href={Pdf}
-            >
-              <img
-                className="resume-icon"
-                height="32"
-                alt="resume"
-                src="https://img.icons8.com/nolan/64/open-resume.png"
-              />
-            </a>
-            <a
-              className="nav-item nav-link"
-              target="_blank"
-              rel="noopener noreferrer"
-              href="https://www.linkedin.com/in/kevinjcastillo/"
-            >
-              <img
-                className="linkedin-icon"
-                height="32"
-                alt="linkedin"
-                src="https://img.icons8.com/nolan/64/linkedin.png"
-              />
-            </a>
           </div>
         </nav>
       </div>

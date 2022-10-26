@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import "../App.css";
+import "../css/Home.css";
 import Pdf from "../pdf/Resume.pdf";
 import Skills from "./Skills";
 import Projects from "./Projects";
@@ -8,7 +9,7 @@ import Projects from "./Projects";
 class Home extends Component {
   render() {
     return (
-      <div className="jumbotron jumbotron-fluid p-0">
+      <div className="jumbotron jumbotron-fluid p-0 context">
         <div className="home d-flex container-fluid">
           <div className="row text-center justify-content-center mx-auto align-self-center">
             <div className="col-sm ">
@@ -76,6 +77,7 @@ class Home extends Component {
             </div>
           </div>
         </div>
+        {/* css */}
         <Skills />
         <Projects />
         {/* <Contact /> */}

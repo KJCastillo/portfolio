@@ -63,7 +63,32 @@ a:hover {
 }
 
 @media only screen and (max-width: 1048px) {
-  .profile {
-    display: none;
+  .profile,
+  .mobile-pic,
+  .skills-list,
+  .bjjImg {
+    display: none !important;
+  }
+  .col-8, .mobile-projects {
+    max-width: none !important;
+    flex: none !important;
+  }
+  .mobile-title {
+    padding-top: 10px !important;
+  }
+  .home {
+    background-color: black !important;
+    background-image: none !important;
+    height: 500px !important;
+  }
+  .mobile-grid {
+    display: grid;
+    grid-row: auto auto;
+    grid-template-columns: 40px 40px;
+    align-items:center;
+    justify-content:center;
+  }
+  .Contact {
+    padding-top: 0 !important;
   }
 }

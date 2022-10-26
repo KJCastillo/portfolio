@@ -11,14 +11,11 @@ export default function Contact() {
   }, []);
   return (
     <div className="Contact container-fluid d-flex justify-content-center ">
-      <div
-        className="contact-pill pt-4"
-        data-aos="fade-up"
-      >
+      <div className="pt-4" data-aos="fade-up">
         <div className="connect">
           <h3 className="connect-title text-center">Let's connect!</h3>
         </div>
-        <div className="pt-3">
+        <div className="pt-3 mobile-grid">
           <a
             className="pr-2"
             target="_blank"

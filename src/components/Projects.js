@@ -20,11 +20,11 @@ export const Projects = () => {
 
       <div data-aos="fade-up">
         {/* myMoney project */}
-        <div className="flex-container pt-5 pb-5">
+        <div className="flex-container pt-5 pb-5 mobile-title">
           <div className="row justify-content-center">
             <div className="col-sm-10">
               <div className="row">
-                <div className="col">
+                <div className="col mobile-projects">
                   <h3 className="title">myMoney</h3>
                   <div className="skills-section">
                     <ul className="skills-list wrap pb-3">
@@ -81,7 +81,7 @@ export const Projects = () => {
                 <div className="col">
                   <img
                     src={myMoney}
-                    className="rounded"
+                    className="rounded mobile-pic"
                     alt="myMoney"
                     width="500px"
                     height="250px"
@@ -92,11 +92,11 @@ export const Projects = () => {
           </div>
         </div>
         {/* fossil fuel project */}
-        <div className="flex-container pt-5 pb-5">
+        <div className="flex-container pt-5 pb-5 mobile-title">
           <div className="row justify-content-center">
             <div className="col-sm-10">
               <div className="row">
-                <div className="col">
+                <div className="col mobile-projects">
                   <h3 className="title">Fossil Fuel Coffee Company</h3>
                   <div className="skills-section">
                     <ul className="skills-list wrap pb-3">
@@ -150,7 +150,7 @@ export const Projects = () => {
                 <div className="col">
                   <img
                     src={fossilfuel}
-                    className="rounded"
+                    className="rounded mobile-pic"
                     alt="myMoney"
                     width="500px"
                     height="250px"
@@ -162,10 +162,10 @@ export const Projects = () => {
         </div>
         {/* recipe api project */}
         <div className="flex-container">
-          <div className="row justify-content-center pt-5 pb-5">
+          <div className="row justify-content-center pt-5 pb-5 mobile-title">
             <div className="col-sm-10">
               <div className="row">
-                <div className="col">
+                <div className="col mobile-projects">
                   <h3 className="title">Recipe API</h3>
                   <div className="skills-section">
                     <ul className="skills-list wrap pb-3">
@@ -222,7 +222,7 @@ export const Projects = () => {
                 <div className="col">
                   <img
                     src={RecipeAPI3}
-                    className="rounded"
+                    className="rounded mobile-pic"
                     alt="myMoney"
                     width="500px"
                     height="250px"
@@ -234,10 +234,10 @@ export const Projects = () => {
         </div>
         {/* to do list react project */}
         <div className="flex-container">
-          <div className="row justify-content-center pt-5 pb-5">
+          <div className="row justify-content-center pt-5 pb-5 mobile-title">
             <div className="col-sm-10">
               <div className="row">
-                <div className="col">
+                <div className="col mobile-projects">
                   <h3 className="title">React To Do List</h3>
                   <div className="skills-section">
                     <ul className="skills-list wrap pb-3">
@@ -292,7 +292,7 @@ export const Projects = () => {
                 <div className="col">
                   <img
                     src={toDoList3}
-                    className="rounded"
+                    className="rounded mobile-pic"
                     alt="myMoney"
                     width="500px"
                     height="250px"

@@ -25,8 +25,9 @@ export const Skills = () => {
         <div className="row justify-content-center">
           <div className="col-sm-10">
             <div className="row">
-              <div className="img-div col-4">
+              <div className="img-div profile col-4">
                 <img
+                  className="mobile-pic"
                   src={profile}
                   alt="profile-pic"
                   width="350px"
@@ -54,7 +55,7 @@ export const Skills = () => {
                   </ul>
                 </div>
                 <div className="small-bio">
-                  <h2 className="title pt-5 pb-3">I love building stuff 👷🏻‍♂️</h2>
+                  <h2 className="title pt-5 pb-3 mobile-title">I love building stuff 👷🏻‍♂️</h2>
                   <p>
                     Whether it was Legos or airplane models, I always loved
                     using my brain and hands to create something from scratch.

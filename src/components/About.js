@@ -1,10 +1,15 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "../App.css";
 import "../css/About.css";
+import Aos from "aos";
+import "aos/dist/aos.css";
 import bjj from "../img/bjj.png";
 import iceland from "../img/iceland.png";
 
 export const About = () => {
+  useEffect(() => {
+    Aos.init({ duration: 1000 });
+  }, []);
   return (
     <div className="About container-fluid">
       <div className="aboutTitle text-center pb-4">
@@ -15,7 +20,7 @@ export const About = () => {
         <div className="row justify-content-center">
           <div className="col-sm-10 pt-4">
             <div className="card-group">
-              <div className="card cardAbout border-0 ">
+              <div className="card cardAbout border-0 " data-aos="zoom-out-right">
                 <div className="card-body">
                   <h3 className="card-title">A little more about me!</h3>
                   <p className="card-text">
@@ -36,7 +41,7 @@ export const About = () => {
                 </div>
               </div>
 
-              <div className="card cardAbout border-0">
+              <div className="card cardAbout border-0" data-aos="zoom-out-left">
                 <img
                   className="card-img-top bjjImg"
                   width="100%"

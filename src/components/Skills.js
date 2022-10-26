@@ -54,7 +54,7 @@ export const Skills = () => {
                   </ul>
                 </div>
                 <div className="small-bio">
-                  <h2 className="title pt-5 pb-3">I love building stuff</h2>
+                  <h2 className="title pt-5 pb-3">I love building stuff 👷🏻‍♂️</h2>
                   <p>
                     Whether it was Legos or airplane models, I always loved
                     using my brain and hands to create something from scratch.

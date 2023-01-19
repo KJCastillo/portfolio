@@ -1,4 +1,4 @@
-# Portfolio
+# Portfolio Website
 
 - Portfolio website created to showcase my work for the public.
 - Website created with React.
